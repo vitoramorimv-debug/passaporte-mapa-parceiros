@@ -54,6 +54,15 @@ Nominatim/Photon (rua → bairro → cidade). As consultas ficam no `data/geocod
 
 ## Publicação
 
-O mapa é publicado pelo GitHub Pages a partir da branch `main` (pasta raiz).
-Para atualizar: rode o `scripts/geocode.py`, confira o mapa localmente e faça `git push`.
-A chave do Google fica no `.env`, que está no `.gitignore` e nunca sobe.
+O mapa público está no Lovable: https://mapa-passaporte-marilia.lovable.app
+(projeto "Mapa de Sabores de Marília", editor em https://lovable.dev/projects/e676f9aa-5aa7-464e-be3d-aefffad6e0fe).
+
+A página do Lovable não guarda os dados: ela lê em tempo real o arquivo
+`data/parceiros.json` deste repositório no GitHub
+(https://raw.githubusercontent.com/vitoramorimv-debug/passaporte-mapa-parceiros/main/data/parceiros.json).
+Para atualizar os parceiros no mapa publicado basta rodar o `scripts/geocode.py`, conferir
+localmente e fazer `git push`; não gasta crédito do Lovable.
+
+O `index.html` deste repositório é o protótipo original em HTML puro e continua funcionando
+localmente (`python3 -m http.server 8765`). A chave do Google fica no `.env`, que está no
+`.gitignore` e nunca sobe.
