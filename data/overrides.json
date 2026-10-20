@@ -1,0 +1,28 @@
+{
+ "364e2c30e76181878cd5cfe5ecae0d2d": {
+  "lat": -22.2237771,
+  "lon": -49.9336711,
+  "obs": "Esmeralda Shopping (POI no OSM)"
+ },
+ "389e2c30e7618150843ddc1814b04b04": {
+  "lat": -22.2237771,
+  "lon": -49.9336711,
+  "obs": "Esmeralda Shopping (POI no OSM)"
+ },
+ "38ae2c30e76181c38158c7a3bd6e8ba2": {
+  "lat": -22.1932488,
+  "lon": -49.9617434,
+  "obs": "POI 'Chilis Tex Mex' na Google Geocoding (Av. Nicola Ricci, 310 - Santa Tereza) - conferir"
+ },
+ "364e2c30e76181ebba50d27a43f2108f": {
+  "lat": -22.1980573,
+  "lon": -49.9561567,
+  "obs": "POI 'Piza Pizzaria' na Google Geocoding (Av. Republica, 2859 - Palmital) - conferir"
+ },
+ "366e2c30e761815aa3a2f5da3ac36dbc": {
+  "lat": -22.2290819,
+  "lon": -49.9516224,
+  "endereco": "Alameda das Sibipirunas, 110 - Boa Vista",
+  "obs": "loja OAKBERRY no Google (POI ROOFTOP, Alameda das Sibipirunas 110); o CEP 17501-530 aponta para Rua Akira Nagasse"
+ }
+}

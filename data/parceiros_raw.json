@@ -1,0 +1,1301 @@
+[
+ {
+  "id": "350e2c30e76181288d9cf8fa8d2dcc54",
+  "nome": "Tarantella Pizzaria",
+  "endereco": "Santo Antônio 350",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Pizzaria"
+  ],
+  "instagram": "taantellapizzaria.marilia",
+  "produto": "Pizza Broto Dois Queijos + Borda de brigadeiro",
+  "descricao": "pizza de 4 fatias, recheada com requeijão cremoso, muçarela, azeitonas e orégano",
+  "horario_promo": "Noite toda",
+  "funcionamento": "18:30 as 23:00",
+  "so_delivery": [],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "350e2c30e76181ed80bffcdcbbe66f82",
+  "nome": "La Vida",
+  "endereco": "Rua Campos Novos Paulista, 14",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Cozinha Saudável"
+  ],
+  "instagram": "@lavidamarilia",
+  "produto": "Prato executivo ou ceaser salad",
+  "descricao": "Pode colocar como Preferir",
+  "horario_promo": "Seg a qui",
+  "funcionamento": "Seg a sex das 11 as 15",
+  "so_delivery": [],
+  "ponto_retirada": [
+   "Não"
+  ]
+ },
+ {
+  "id": "356e2c30e76181e5a013c769b34b8a04",
+  "nome": "Tasso Bar",
+  "endereco": "Av. Rio Claro, 59 - Cascata, Marília - SP, 17515-010",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Bar e Restaurante"
+  ],
+  "instagram": "@tonotasso",
+  "produto": "Frango a passarinho",
+  "descricao": "1lg de filé de coxa desossada e levemente empanado",
+  "horario_promo": "Terça a sexta",
+  "funcionamento": "Terça a domingo das 17 às 00",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "356e2c30e76181c3a226fdbdf2e55fe2",
+  "nome": "pura beach cafe e restaurante",
+  "endereco": "avenida jesus montolar, 1200 loja 10 - 17519-211",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Cafeteria",
+   "Cozinha Saudável"
+  ],
+  "instagram": "@purabeachcafe",
+  "produto": "Pizza",
+  "descricao": "Tem pizza no Pura! Na compra de uma, ganhe outra (qualquer sabor)",
+  "horario_promo": "segunda a sexta",
+  "funcionamento": "todos os dias 7h as 22h durante dias da semana, sabado 8h as 20h, domingo 8h as 17h",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "359e2c30e761813a9d0dc214caa19e60",
+  "nome": "Nonnos Burger",
+  "endereco": "R. Sergipe, 725 - Banzato, Marília - SP, 17515-180",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Hamburgueria"
+  ],
+  "instagram": "nonnosburger",
+  "produto": "Combo 1 Lanche + 1 Batata + 1 Refri",
+  "descricao": "Leveza e frescor sem perder a brutalidade: blend 160g feito na casa, pão brioche, cheddar cremoso, (sabor Picles McCoy, contém Picles), alface, tomate e cebola roxa. Feito na medida, sabor diferenciado.",
+  "horario_promo": "Todos os dias e horários",
+  "funcionamento": "Quarta a Domingo das 18h 30 às 23h, Segunda das 18h 30 às 22h, Ter - Fechado",
+  "so_delivery": [
+   "Sim"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "359e2c30e76181cd9b60c9aae6af7da6",
+  "nome": "Fire Garden",
+  "endereco": "17515430",
+  "status": "Desistiu Após Minuta",
+  "segmento": [
+   "Steakhouse"
+  ],
+  "instagram": "FireGardenOficial",
+  "produto": "Costelinha BBQ",
+  "descricao": "Costelinha Suína temperada com Dry Hubs E Defumada por Horas, Inspirada nos melhores restaurantes de American BBQ do Estados Unidos, Possui 600 Gr e Acompanha Batatas Fitas",
+  "horario_promo": "Segunda a Sexta",
+  "funcionamento": "Segunda a segunda das 11:30 às 23:00",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "359e2c30e76181b99a64df7aa9c0d600",
+  "nome": "Nonnos Greens",
+  "endereco": "R. Sergipe, 725 - Banzato, Marília - SP, 17515-180",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Cozinha Saudável"
+  ],
+  "instagram": "nonnosgreens",
+  "produto": "Combo 1 Wrap + 1 Chá",
+  "descricao": "Frango cremoso defumado na casa, queijo muçarela, molho ceasar, sementes tostadas, mix de quinoa e alface americana",
+  "horario_promo": "Todos os dias e horários",
+  "funcionamento": "Segunda à Sábado das 10h 30 às 15h",
+  "so_delivery": [
+   "Sim"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "35ee2c30e76181c7a174ce2f64d72625",
+  "nome": "arigato sushi delivery - Horário Alterado",
+  "endereco": "rua 21 de abril, 433 17516-170",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Cozinha Japonesa"
+  ],
+  "instagram": "@arigatosushimarilia",
+  "produto": "Na compra de um temaki de salmão completo, ganhe outro",
+  "descricao": "Delicioso temaki de salmão com cream cheese e cebolinha",
+  "horario_promo": "terça a quinta feira",
+  "funcionamento": "terça a domingo das 18:30 as 22:30",
+  "so_delivery": [
+   "Sim"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "35fe2c30e7618116acf6da1bb4a359fc",
+  "nome": "Bentô Sushi",
+  "endereco": "Av Santo Antônio 360, Centro, Marília 17500-070",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Bar e Restaurante",
+   "Cozinha Japonesa",
+   "Cozinha Chinesa"
+  ],
+  "instagram": "@obentosushi e @superbentomarilia",
+  "produto": "Uramaki Danash",
+  "descricao": "Uramaki Recheado e coberto com creme crocante de salmão, Cream Cheese, cebola roxa e cebolinha.",
+  "horario_promo": "Terça á quinta das 17:30 ás 23h",
+  "funcionamento": "Todos os dias, das 10 ás 23h",
+  "so_delivery": [
+   "Sim",
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "360e2c30e76181b092b1d6e9a0042bee",
+  "nome": "Thatha Caffé",
+  "endereco": "Av monte Carmelo 136, 17501360",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Cafeteria",
+   "Doces e Sorveterias"
+  ],
+  "instagram": "@thathacaffe",
+  "produto": "Café colonial ou 1 combo de café + salgado + choux cream",
+  "descricao": null,
+  "horario_promo": "Terça a domingo (colonial apenas de sábado e domingo)",
+  "funcionamento": "Terça a sexta das 12 às 19h - sábado das 8:30 às 19h - domingos das 8:30 às 17h",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "361e2c30e76181e58b6fc28397fe22ce",
+  "nome": "Japakitos",
+  "endereco": "R. Dr. Reinaldo Machado, 178 - Fragata, Marília - SP, 17519-080",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Cozinha Japonesa"
+  ],
+  "instagram": "Japakitos",
+  "produto": "Hot Roll",
+  "descricao": "Hot Roll de salmao com cream cheese",
+  "horario_promo": "Segunda a quarta das 18 as 23",
+  "funcionamento": "Segunda a Sabado das 18 as 23",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "364e2c30e76181878cd5cfe5ecae0d2d",
+  "nome": "Pasttini - Esmeralda Shopping e Marilia Shopping",
+  "endereco": "Av das Esmeraldas 701, loja 82",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Cozinha Italiana"
+  ],
+  "instagram": "@pasttinimarilia",
+  "produto": "Prato Tradizionale",
+  "descricao": "Escolha sua massa preferida, os ingredientes para sua receita, seu molho preferido e montamos seu prato na hora!",
+  "horario_promo": "Todos os dias",
+  "funcionamento": "Todos os dias, das 11:00 as 22:00",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Não"
+  ]
+ },
+ {
+  "id": "364e2c30e761814ba5e6c67245afdca4",
+  "nome": "Pasttini Liberdade",
+  "endereco": "Rua mecenas pinto Bueno 480",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Bar e Restaurante",
+   "Cozinha Italiana",
+   "Pizzaria",
+   "Hamburgueria"
+  ],
+  "instagram": "@pasttinimarilia",
+  "produto": "Pizza Francesa grande(8 pedaços)",
+  "descricao": "Massa artesanal de longa fermentação, molho de tomates, mozarela, calabresa, cebola, azeitonas, cheiro verde, orégano",
+  "horario_promo": "Domingo a quinta-feira",
+  "funcionamento": "Terças a domingo a partir das 18:00 as 23:30",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Não"
+  ]
+ },
+ {
+  "id": "364e2c30e76181ebba50d27a43f2108f",
+  "nome": "Piza pizzaria",
+  "endereco": "Av. República, 2859 - Palmital 17510-402 Marília, SP, Brazil",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Pizzaria"
+  ],
+  "instagram": "Pizapizzaria",
+  "produto": "Pizza napolitana",
+  "descricao": "A pizza mais clássica que existe, com recheio e massa de extrema qualidade, a pizza napolitana vai com uma massa de longa fermentação e tem molho de tomate, mussarela de búfala, manjericão e azeitona preta",
+  "horario_promo": "Terça a domingo (dia todo)",
+  "funcionamento": "De terça a domingo das 18 às 23",
+  "so_delivery": [
+   "Sim"
+  ],
+  "ponto_retirada": [
+   "Não"
+  ]
+ },
+ {
+  "id": "365e2c30e7618174856ddcdb9f03cd7c",
+  "nome": "Gaia Café - Horário Alterado",
+  "endereco": "Sperendido Cabrini, 321",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Cafeteria"
+  ],
+  "instagram": "Gaiacafelab",
+  "produto": "Café coado + brioche com toque de Mel",
+  "descricao": "Café coado e brioche com toque de Mel",
+  "horario_promo": "Todos os dias",
+  "funcionamento": "Seg a Sab das 08;00 às 18:00",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "365e2c30e7618124b75ce58cae4c04b1",
+  "nome": "Hachimitsu",
+  "endereco": "17.519-211",
+  "status": "Desistiu Após Minuta",
+  "segmento": [
+   "Padaria",
+   "Bar e Restaurante",
+   "Cafeteria",
+   "Doces e Sorveterias"
+  ],
+  "instagram": "hachimitsuoficial",
+  "produto": "não definido",
+  "descricao": "não definido",
+  "horario_promo": "não definido",
+  "funcionamento": "todos os dias",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "366e2c30e761815aa3a2f5da3ac36dbc",
+  "nome": "OAKBERRY Marília",
+  "endereco": "Alameda das Sibipirunas, 110 - Boa Vista, Marília - SP, 17501-530",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Acaíteria"
+  ],
+  "instagram": "Postar no soma_wellnesshub",
+  "produto": "O Preferido",
+  "descricao": "Bowl Works de 500ml com leite condensado, leite ninho e banana",
+  "horario_promo": "De segunda a sexta feira das 12:00 às 21:00hrs",
+  "funcionamento": "Segunda a sexta feira das 12:00 às 21:00hrs - sábado das 12:00 às 20:00hrs e aos domingos das 13:30 às 21:00hrs",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "367e2c30e761815ca0d7fd21d5765f8b",
+  "nome": "Dona Elisa",
+  "endereco": "Rua dos Bancários 143, Maria Izabel, Marília sp, 17516032",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Bar e Restaurante"
+  ],
+  "instagram": "@donaelisamarilia",
+  "produto": "40 salgados de festa sortidos",
+  "descricao": null,
+  "horario_promo": "segunda a sexta",
+  "funcionamento": "segunda a sábado das 9h às 18h30 e domingo das 9 às 14h",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "368e2c30e76181eaa4f7ed1fccef6dfb",
+  "nome": "Vino Marilia",
+  "endereco": "Av. das Esmeraldas, 195 - Jardim Tangara, Marília - SP, 17516-000",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Bar e Restaurante",
+   "Cozinha Italiana"
+  ],
+  "instagram": "Vino Marilia",
+  "produto": "Qualquer Risoto",
+  "descricao": null,
+  "horario_promo": "Terça a Domingo",
+  "funcionamento": "Terça a Sexta  das 18h as 23h sabado das 12h as 15h -19h as 23h domingo 12h as 15h",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Não"
+  ]
+ },
+ {
+  "id": "368e2c30e761819d9647dc2990cdb00d",
+  "nome": "OLD SKULL RUSTIC BURGUER",
+  "endereco": "17519030",
+  "status": "Desistiu Após Minuta",
+  "segmento": [
+   "Hamburgueria"
+  ],
+  "instagram": "Oldskullrusticburguer",
+  "produto": "Old Lada",
+  "descricao": "Clássico, pão brioche, alface, tomate, cebola roxa, hambúrguer 150g, cheddar fatiado e maionese da casa.",
+  "horario_promo": "De terça a quinta",
+  "funcionamento": "De Seg a Dom das 18:50 às 23:00",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "36be2c30e76181209c2cc208e9b16745",
+  "nome": "Bar do Amorim",
+  "endereco": "Rua Júlio de Mesquita 582 jd Maria isabel  Marilia SP cep 17515-230",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Bar e Restaurante"
+  ],
+  "instagram": "@bardoamorim",
+  "produto": "Bolinho Prexeca",
+  "descricao": "Bolinho feito com blend de Carnaval bovina e suína,deliciosamente temperada com temperos da casa , jiló , empanado,  servido vom molhinho especial",
+  "horario_promo": "Segunda a quarta o dia todo",
+  "funcionamento": "Segunda a sábado das 8 às 0 hrs",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Não"
+  ]
+ },
+ {
+  "id": "36de2c30e76181b68e1fe4f6ae5e676b",
+  "nome": "El Juanito - Burguer y Choripan",
+  "endereco": "Av. Vicente Ferreira, 45 - Jd. Maria Izabel - Marília - CEP 17509-180",
+  "status": "Desistiu Após Minuta",
+  "segmento": [
+   "Hamburgueria"
+  ],
+  "instagram": "eljuanitomarilia",
+  "produto": "Messi",
+  "descricao": "Pão de brioche, hamburguer bovino artesanal, bacon crocante, rodela de cebola braseada, tomate braseado e maionese de chimichurri",
+  "horario_promo": "Quarta a Segunda",
+  "funcionamento": "Quarta a Segunda - 18h as 23h",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "36de2c30e761812c9b44e482c13aecab",
+  "nome": "Seu Batista Lanches & Pizzas",
+  "endereco": "Rua Santa Helena 303 - 17513322",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Pizzaria",
+   "Hamburgueria"
+  ],
+  "instagram": "@seubatistalanchespizza",
+  "produto": "Toda quarta-feira Combo 3 e Pizza Brasileira",
+  "descricao": "Combo 3 : Lanche X-gourmet, feito no Pão de Hamburguer, com hambúrguer gourmet 180g, cheddar fatiado, cebola roxa, picles, maionese, alface e tomate.",
+  "horario_promo": "Toda quarta-feira",
+  "funcionamento": "Terça-feira a domingo",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "370e2c30e7618124b677c05b6db9acb3",
+  "nome": "Restaurante Casa Toscana",
+  "endereco": "Rua alvares Cabral 263 17501100",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Cozinha Italiana"
+  ],
+  "instagram": "@casatoscana",
+  "produto": "Tagliatelle Mignon Mostarda",
+  "descricao": "Massa fresca feita na casa com Tiras de filé mignon ao molho de mostarda, espinafre e parmesão",
+  "horario_promo": "Todos os dias e horários que o restaurante estiver aberto",
+  "funcionamento": "Almoço de terca a domingo das 11:30h as 14:30h, jantar de terca a sábado das 19h as 23h",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "374e2c30e76181d89321e2440c945f99",
+  "nome": "DOCTOR BEER - Horário Ajustado",
+  "endereco": "AV RIO BRANCO 1331 17502-000",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Bar e Restaurante"
+  ],
+  "instagram": "#doctorbeermarilia",
+  "produto": "FRANGO COM MEL E PIMENTA",
+  "descricao": "10 TULIPAS E 10 DRUMET DE FRANGO EMPANADO E FRITO ENVOLVIDO EM UMA DELICIOSA CALDA DE MEL COM PIMENTA, ACOMPANHA CENOURAS E MOLHO RANCH",
+  "horario_promo": "QUARTA E QUINTA NO HORARIO DE FUNCIONAMENTO",
+  "funcionamento": "QUARTA A SABADO DAS 18:00 AS 00:30",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "375e2c30e7618124b8e8c7ab9b08092c",
+  "nome": "Didiu Massas Artesanais",
+  "endereco": "Avenida Cascata 96 Cep: 17515300",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Bar e Restaurante"
+  ],
+  "instagram": "didiu massas artesanais",
+  "produto": "Nhoque batata inglesa ao molho sugo",
+  "descricao": "Nhoque batata inglesa ao molho sugo",
+  "horario_promo": "Terça a sexta dia todo",
+  "funcionamento": "Terça a sábado das 09:00 as 22:30. Domingo das 09:00 as 15:00",
+  "so_delivery": [
+   "Sim"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "376e2c30e761814f89c0f2a6cb3c1236",
+  "nome": "La Bamba Food",
+  "endereco": "Av Rio Branco 1266 Alto Cafezal, Marília SP, cep 17502000",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Bar e Restaurante",
+   "Cozinha Mexicana"
+  ],
+  "instagram": "@la_bamba_food",
+  "produto": "Rodízio",
+  "descricao": "Delicioso rodízio da culinária Tex Mex",
+  "horario_promo": "De terça a quinta das 18:30 às 22h",
+  "funcionamento": "De terça a domingo (das 18:30 às 23h)",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "37be2c30e7618139b211e6afff6b014e",
+  "nome": "Le Marché Bistro",
+  "endereco": "Rua Álvares Cabral 190 centro Marília SP CEP 17501100",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Bistrô"
+  ],
+  "instagram": "le_marche_bistro",
+  "produto": "Entrecot au Bernaise",
+  "descricao": "Beef ancho grelhado com batatas crocantes da casa e molho bernaise",
+  "horario_promo": "Terça a quinta feira",
+  "funcionamento": "Horario de atendimento: Almoço  Terça a Sábado: 11:30 ás 14:30 Jantar Terça a Sábado: 19:30 ás 23:00  Domingo: 12:00 ás 14:30",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "382e2c30e76181768163c886793b4b85",
+  "nome": "Lobinho Churros Rio Branco",
+  "endereco": "Av. Rio Branco, 1256 - Alto Cafezal, Marília - SP, 17502-000",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Doces e Sorveterias"
+  ],
+  "instagram": "@lobinhochurros",
+  "produto": "Churros Artesanal recheado e coberto com doce de leite legítimo",
+  "descricao": "ORIGINAL EM DOBRO",
+  "horario_promo": "Terça a domingo das 18h/ 20h",
+  "funcionamento": "Aberto das 18:30h / 23:30h",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Não"
+  ]
+ },
+ {
+  "id": "384e2c30e761811a93b7e772fcdc2557",
+  "nome": "Gostoso Botequim Marilia",
+  "endereco": "Rua Sete de Setembro, 387, Boa Vista - Marilia/SP CEP:17501560",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Bar e Restaurante"
+  ],
+  "instagram": "gostosobotequimmarilia",
+  "produto": "Croqueta de cupim (3 unidades)",
+  "descricao": "Croqueta de cupim crocante por fora e extremamente macia por dentro, feita com carne desfiada, suculenta e cheia de sabor, finalizada com creme de gorgonzola",
+  "horario_promo": "Terça e Quarta",
+  "funcionamento": "Ter a qui 17h às 23h/ sex 17h às 23:30/ sab 12h às 23:00/ dom 12h às 22h",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "388e2c30e76181fe9e84d339236503f6",
+  "nome": "SEU GREGO",
+  "endereco": "RUA NOVE DE JULHO, 1294 CENTRO MARILIA/SP CEP: 17500-120",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Bar e Restaurante"
+  ],
+  "instagram": "@seugregomarilia",
+  "produto": "SHAWARMA DE FRANGO",
+  "descricao": "LANCHE NO PÃO FOLHA, RECHEADO COM FRANGO, RUCULA, TOMATE, CEBOLA ROXA E MOLHO ESPECIAL",
+  "horario_promo": "segunda a sexta-feira das 15 as 18hrs",
+  "funcionamento": "segunda a sexta-feira das 8 as 19hrs",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "388e2c30e761811a828ac6948ab4b6ad",
+  "nome": "Baba Grill",
+  "endereco": "Av das Esmeraldas 701 loja 89 CEP 17516000",
+  "status": "Desistiu Após Minuta",
+  "segmento": [
+   "Churrascaria",
+   "Steakhouse"
+  ],
+  "instagram": "Babagrill",
+  "produto": "Baba burguer",
+  "descricao": "Lanche com hambúrguer artesanal, cheader, alface, tomate molho especial e batata frita",
+  "horario_promo": "Das 18 as 21:30",
+  "funcionamento": "Segunda a domingo das 11 as 22 pausa das 15 as 18",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Não"
+  ]
+ },
+ {
+  "id": "388e2c30e761810cb045fa20db2f7a2f",
+  "nome": "GRAPPA CAFFÈ",
+  "endereco": "RUA ÁLVARES CABRAL, 351 MARÍLIA - SP CEP 17501-100",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Cafeteria"
+  ],
+  "instagram": "@grappacaffe",
+  "produto": "CRUMBLE DE BANANA OU MAÇÃ",
+  "descricao": "É um prato doce de origem britânica, feito de compota de frutas picadas cobertas com uma mistura de manteiga, farinha e açúcar.",
+  "horario_promo": "De 2ª à 6ª das 11 às 14h",
+  "funcionamento": "de 2ª a sábado das 08 às 19h",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "388e2c30e76181ad9e75dfcbc8ba4242",
+  "nome": "Cupim",
+  "endereco": "Av. Pres. Roosevelt, 4 - Santa Olivia, Marília - SP, 17501-480",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Bar e Restaurante"
+  ],
+  "instagram": "Cupim restaurante",
+  "produto": "Massa carbonara",
+  "descricao": "Talharim a carbonara, massa talharim,bacon , gemas de ovos , queijo parmesão,",
+  "horario_promo": "Segunda a sexta",
+  "funcionamento": "Todos dias 1130 as 2330",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim",
+   "Não"
+  ]
+ },
+ {
+  "id": "388e2c30e76181bbb257e46ef5df619a",
+  "nome": "Vellutine Gelato",
+  "endereco": "Rua Bahia, 639, 17509-150",
+  "status": "Desistiu Após Minuta",
+  "segmento": [
+   "Doces e Sorveterias"
+  ],
+  "instagram": "Vellutinegelatoartesanal",
+  "produto": "Copo de 2 bolas e 1 água",
+  "descricao": "Um copinho com duas bolas, dos sabores disponíveis no dia, com uma água",
+  "horario_promo": "Todos os dias e horarios de funcionamento",
+  "funcionamento": "Terça a Domingo das 15 as 22h",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "389e2c30e76181e79986f125963d8a8a",
+  "nome": "Patriota Emporio & Gastronomia",
+  "endereco": "Rua Rio Grande do Sul 506 - 17509-130",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Bistrô"
+  ],
+  "instagram": "patriotaemporioegastronomia",
+  "produto": "Risoto de Funghi",
+  "descricao": "Delicioso arroz a´rboreo cremosos elaborado ao funghi sec e finalizado com parmesão e tomate cereja",
+  "horario_promo": "Quartas-feiras das 19 ás 22hs",
+  "funcionamento": "segunda a sexta 16 às 23:00 / sábado das 11h ás 23hs / domingo das 11h às 15hs",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "389e2c30e76181e7a6fae2143390f74d",
+  "nome": "Terrazzo Marilia",
+  "endereco": "Avenida das esmeraldas 2333, 17511620",
+  "status": "Desistiu Após Minuta",
+  "segmento": [
+   "Bar e Restaurante"
+  ],
+  "instagram": "Terrazzomarilia",
+  "produto": "Porção de Frango Panko",
+  "descricao": "600g de Sassami empanado no Panko com Parmesão no molho de mel e pimenta",
+  "horario_promo": "Horario de funcionamento padrão",
+  "funcionamento": "Das 08h as 22h 30 segunda a sábado",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "389e2c30e7618150843ddc1814b04b04",
+  "nome": "Rock Temakeria - Horário Alterado",
+  "endereco": "Avenida das esmeraldas 701, loja 86",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Cozinha Japonesa"
+  ],
+  "instagram": "rock.marilia",
+  "produto": "1 Temaki Hot + 8 Sushi hot de Salmão com Cream Cheese",
+  "descricao": "1un Temaki de Salmão e Cream Cheese empanado e frito + 8un Sushi de Salmão e cream cheese empanado e frito",
+  "horario_promo": "Horário padrão de atendimento",
+  "funcionamento": "Todos os dias das 11h as 22h 30",
+  "so_delivery": [
+   "Sim"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "38ae2c30e76181218703cbeb88e923a3",
+  "nome": "Campina Buguer",
+  "endereco": "Av. Joao Martins Coelho 270, jardim santo antonieta, 17512-310",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Hamburgueria"
+  ],
+  "instagram": "Campinaburguer",
+  "produto": "Start com Batata e Refrigerante Lata",
+  "descricao": "Pão de brioche, hambúrguer 170g, Queijo Cheddar fatiado, Alface ou Rúcula, tomate e cebola roxa. Acompanha uma porção individual de batata e um refrigerante lata",
+  "horario_promo": "Exceto sábado",
+  "funcionamento": "Terça a domingo das 18h 30 as 23h 30",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "38ae2c30e76181e3b958ebff6d4eaf39",
+  "nome": "Sushiya",
+  "endereco": "Limeira 103 17.509-170",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Cozinha Japonesa"
+  ],
+  "instagram": "@sushiyaemcasa",
+  "produto": "Temaki Salmão Fry",
+  "descricao": "Temaki Salmão Fry, o Salmão empanado na panko com cream cheese e cebolinha vai te surpreender em cada mordida.",
+  "horario_promo": "Terça e quarta",
+  "funcionamento": "Terça a domingo das 18h as 23h",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "38ae2c30e76181c38158c7a3bd6e8ba2",
+  "nome": "Chilis Tex Mex",
+  "endereco": "Rua Nicola ricci, 310 - Polon, Marília - SP, 17507-210",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Cozinha Mexicana"
+  ],
+  "instagram": "Chili_stexmex",
+  "produto": "Rodizio",
+  "descricao": "Rodizio da casa",
+  "horario_promo": "Quinta, sexta e sábados",
+  "funcionamento": "Terca a domingo, 18h as 23h",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "38ae2c30e761813ba2fccf7c55962e39",
+  "nome": "Gabriel lanches - Produto Alterado",
+  "endereco": "17504081 av santo Antônio 325",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Hamburgueria"
+  ],
+  "instagram": "Gabriel lanches",
+  "produto": "X salada",
+  "descricao": "X salada",
+  "horario_promo": "Segunda a quinta das 18:00 às 23:00",
+  "funcionamento": "Segunda a segunda das 18:00 às 01:00",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "38be2c30e76181108b11e6770181f67a",
+  "nome": "Orly Bagueteria",
+  "endereco": "Rua paes leme 88, 17500-150",
+  "status": "Desistiu Após Minuta",
+  "segmento": [
+   "Padaria"
+  ],
+  "instagram": "orlybagueteria",
+  "produto": "Em aberto",
+  "descricao": "Em aberto",
+  "horario_promo": "Em aberto",
+  "funcionamento": "Todos os dias das 06h 30 as 22h domingo das 06h 30 ao 12h 30 e reabre as 15h",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Não"
+  ]
+ },
+ {
+  "id": "38be2c30e76181029666cbe30b530758",
+  "nome": "Lis café",
+  "endereco": "Rua bandeirantes 89, 17501-090",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Cafeteria"
+  ],
+  "instagram": "liscafemarilia",
+  "produto": "Fatia de Bolo de Cenoura Americano, capuccino e um pão de queijo",
+  "descricao": "Fatia de bolo do dia com especiarias, um capuccino e um pão de queijo",
+  "horario_promo": "Horario de funcionamento padrão",
+  "funcionamento": "Segunda a sexta das 08h 30 as 17h 30",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "390e2c30e761814f8bc1e33c9fa2dc05",
+  "nome": "Marrabah",
+  "endereco": "Rua alvares cabral 418, 17501100",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Cozinha Árabe"
+  ],
+  "instagram": "marrabahculinariaarabe",
+  "produto": "Monte seu prato (categoria do cardápio)",
+  "descricao": "Escolha 3 itens de disponíveis na categoria Monte seu Prato.",
+  "horario_promo": "Terça a quinta-feira",
+  "funcionamento": "Terça a Sabado 18h as 22h 30, Domingo das 11h 30 as 15h",
+  "so_delivery": [
+   "Sim"
+  ],
+  "ponto_retirada": [
+   "Não"
+  ]
+ },
+ {
+  "id": "391e2c30e761815d94c6d46b7eb930d3",
+  "nome": "Maré Beach Club - Horário Alterado",
+  "endereco": "Av. Jóquei Clube, 117 - Jóquei Clube, Marília - SP, 17521-450",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Bar e Restaurante",
+   "Cafeteria"
+  ],
+  "instagram": "@marebeach.club",
+  "produto": "Sanduba de Costela + Sobremesa dos Sonhos",
+  "descricao": "Sanduíche de Costela + Sobremesa dos Sonhos Uma combinação irresistível para quem não abre mão de sabor. Nosso sanduíche é preparado com costela bovina desfiada, macia e suculenta, coberta com cebola caramelizada e uma generosa camada de queijo derretido, tudo servido em um pão macio e levemente tostado. Para completar a experiência, um bolo chocolatudo, úmido e intenso, servido quentinho com generosas bolas de sorvete de creme, criando o contraste perfeito entre o quente e o gelado. Uma explosão de sabores que transforma qualquer refeição em um momento especial.",
+  "horario_promo": "Segunda, quarta e quinta / das 15h a 21h",
+  "funcionamento": "Seg a sábado",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "395e2c30e76181fdaf7eec1e2c571b04",
+  "nome": "Punta Cana Pastelaria",
+  "endereco": "Avenida Presidente Roosevelt 151.",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Pastelaria"
+  ],
+  "instagram": "puntacanapastelaria",
+  "produto": "Compre 1 Leve 2",
+  "descricao": null,
+  "horario_promo": "Segunda a quinta",
+  "funcionamento": "Segunda a sexta das 11:00 às 23:00 e sábado das 17:00 às 23:30",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "396e2c30e76181c08f66dde0d4c5b412",
+  "nome": "HEAVEN BURGUER",
+  "endereco": "Cep17509130 Rua Rio Grande do Sul 511",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Hamburgueria"
+  ],
+  "instagram": "@heaven.burguer",
+  "produto": "COMBO HEAVEN MANHATTAN",
+  "descricao": "Pão Brioche, Hamburguer Defumado, Cheddar, Cebola Caramelizada, Alface, Bacon e Molho Barbecue Defumado.",
+  "horario_promo": "De Quinta a Segunda das 18:30 as 23:30",
+  "funcionamento": "De Quinta a Terça das 18:30 as 23:30",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "399e2c30e7618185b561cee26e2822b1",
+  "nome": "Gelateria Lunata",
+  "endereco": "Rua Sete de Setembro, nº 155 - Bairro: Barbosa - CEP: 17501-560 - Marília/SP",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Doces e Sorveterias"
+  ],
+  "instagram": "@gelaterialunata",
+  "produto": "Petit Gateau",
+  "descricao": "1 bolinho petit gateau de chocolate, quente e assado na hora, acompanhado de 1 bola de sorvete à escolha do cliente, finalizado com chantilly e cereja.",
+  "horario_promo": "Todos os dias, das 13:00 às 22:00",
+  "funcionamento": "13:00 às 23:00",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Não"
+  ]
+ },
+ {
+  "id": "39ce2c30e7618173b4c7c24aeecd5a6c",
+  "nome": "155 Bar e Espetaria - Horário Alterado",
+  "endereco": "R. Hidekichi Nomura, 155 - Fragata, Marília - SP, 17519-221",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Bar e Restaurante"
+  ],
+  "instagram": "Bar 155 Marilia",
+  "produto": "Contra filé acebolado com fritas",
+  "descricao": "500g contra filé acebolado com 300g de batata frita",
+  "horario_promo": "Segunda a Quinta a noite toda",
+  "funcionamento": "Segunda a sexta 17h às 00h sábado das 11h às 00h",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "39ee2c30e7618103a8e7c4ede2fe5323",
+  "nome": "Amén casa de sabor",
+  "endereco": "Av. Santo Antônio, 28 - Boa Vista, Marília - SP, 17501-470",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Bar e Restaurante",
+   "Cafeteria"
+  ],
+  "instagram": "@amen_casadesabor",
+  "produto": "Empadas",
+  "descricao": "Combo 2 empadas salgadas + 1 empada doce",
+  "horario_promo": "Todos os dias",
+  "funcionamento": "Segunda a Domingo das 9:00 às 18:00",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "3a0e2c30e761817d99eafaf9d0e68897",
+  "nome": "Lounge 277",
+  "endereco": "17509130 , rua rio grande do sul 270",
+  "status": "Desistiu Após Minuta",
+  "segmento": [
+   "Bar e Restaurante",
+   "Pizzaria"
+  ],
+  "instagram": "Lounge 277",
+  "produto": "Porcao Frango com Mel e Pimenta",
+  "descricao": "Receita especial fo Lounge o famoso Frango com Mel e Pimenta, acompanha fritas!!",
+  "horario_promo": "Quarta feira das 18 as 23 h",
+  "funcionamento": "Quarta a domingo das 18 as 0 h",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Não"
+  ]
+ },
+ {
+  "id": "3a0e2c30e761811cb823d34da45e03a5",
+  "nome": "Pé de Café- cafeteria",
+  "endereco": "Tua Coronel José Bras, 468",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Cafeteria"
+  ],
+  "instagram": "@pedecafe.marilia",
+  "produto": "Empada da Vó",
+  "descricao": "Empada de frango ou palmito, acompanha suco de laranja e um espresso",
+  "horario_promo": "Segunda a quarta (dia todo)",
+  "funcionamento": "Segunda a sexta das 9 às 18 hs",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "3a0e2c30e761811d8fe5dc8241c7153d",
+  "nome": "Zuper Funcional",
+  "endereco": "R. Pedro Preti, 7 - Jardim Maria Izabel, Marília - SP, 17516-290",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Cafeteria",
+   "Cozinha Saudável",
+   "Bar e Restaurante"
+  ],
+  "instagram": "@zuperfuncional",
+  "produto": "Parmegiana",
+  "descricao": "Parmegiana leve e equilibrada, sem fritura, com delicioso molho artesanal da casa. Acompanha arroz e batata rústica. Na compra de qualquer parmegiana, leve outra de igual ou menor valor.",
+  "horario_promo": "Segunda a sábado, 11h às 14h",
+  "funcionamento": "Segunda a sexta 9h-19h, sábado 9h-17h",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "3a3e2c30e761818e9027e65aa2c41422",
+  "nome": "KAIIA FRESH FOOD",
+  "endereco": "RUA DR REINALDO MACHADO 178",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Cozinha Saudável"
+  ],
+  "instagram": "kaiiafreshfood",
+  "produto": "Poke de Frango fry M",
+  "descricao": "Proteina 60g de ProteinaBase (Arroz), Frango Empanado Na Panko Ou Grelhado, Cenoura Ralada, Chips De Mandioquinha, Cream Cheese, Repolho Roxo, Alho Frito, Cebolinha",
+  "horario_promo": "segunda a quinta",
+  "funcionamento": "SEGUNDA A SABADO DAS 18 AS 22:30",
+  "so_delivery": [
+   "Sim"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "3a3e2c30e761818eabd2fbae11e71419",
+  "nome": "Aji Sushi Delivery",
+  "endereco": "Vinte e um de Abril 567",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Cozinha Japonesa"
+  ],
+  "instagram": "@ajisushidelivery",
+  "produto": "Carpaccio de Salmão Trufado",
+  "descricao": "Lâminas finas de Salmão, com azeite trufado e raspas de limão siciliano.",
+  "horario_promo": "Segunda, terça, quinta das 18:30 ás 22:45",
+  "funcionamento": "Todos os dias, das 18:30 ás 23h - Quarta feira Fechado",
+  "so_delivery": [
+   "Sim"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "3a3e2c30e76181498befeb9fa99c3d5b",
+  "nome": "LEIA ATELIE DE  DOCES  - Horário Ajustado",
+  "endereco": "RUA MECENAS PINTO BUENO 678 17516-030 MARIA ISABEL MARILIA SP",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Doces e Sorveterias"
+  ],
+  "instagram": "@LEIAATELIEDEDOCES",
+  "produto": "Dobrou, Adoçou! 1 Combo Café + Doce e leve outro igual gratuitamente. Porque momentos especiais ficam ainda melhores quando são compartilhados.",
+  "descricao": "café expresso e doce grande da vitrine à escolher",
+  "horario_promo": "SEGUNDA A QUINTA O DIA TODO",
+  "funcionamento": "SEGUNDA A SEXTA DAS 10:00 AS 19:00 E SABADO DAS 09.30 AS 17:00H",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Não"
+  ]
+ },
+ {
+  "id": "3a7e2c30e7618118a7f8f1fe8aef9ca4",
+  "nome": "BOTECO DO BOTELHO",
+  "endereco": "R. Carlos Botelho, 386 - Jardim Maria Izabel, Marília - SP, 17515-240",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Bar e Restaurante"
+  ],
+  "instagram": "barbotelhomarilia",
+  "produto": "Sassami crocante acompanhando molho especial de mel",
+  "descricao": "Sassami crocante com molhinho de mel",
+  "horario_promo": "Segunda a quarta das 17 as 23",
+  "funcionamento": "Segunda a sabado , 17 horas as 23",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "3aae2c30e76181f28f96da139c20d79b",
+  "nome": "Café do Lado",
+  "endereco": "Av. das Esmeraldas n° 11 CEP 17516-000",
+  "status": "Desistiu Após Minuta",
+  "segmento": [
+   "Bar e Restaurante"
+  ],
+  "instagram": "cafedolado",
+  "produto": "Prato Especial em Dobro",
+  "descricao": "Na compra de um Prato Especial, ganhe outro igual - Consultar o prato do momento.",
+  "horario_promo": "Segundas, terças e quintas das 19:00 as 23:00 hs",
+  "funcionamento": "Sábado das 11h as 00h 30, Domingo das 11 as 23h, segunda e terça das 18h 30 as 23h, Quarta e quinta das 11h as 14h e das 18h 30 as 23h, sexta das 11h as 14h e das 18h 30 as 00h",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Não"
+  ]
+ },
+ {
+  "id": "3b1e2c30e7618163b315fea9bf3a9ba0",
+  "nome": "Vovó formiga Bolos caseiros",
+  "endereco": "Av santo Antônio 571 17500-070",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Doces e Sorveterias"
+  ],
+  "instagram": "Vovoformigamarilia",
+  "produto": "Bolo Formigueiro",
+  "descricao": "Bolo formigueiro, massa de bolo branca bem fofinha cheia de granulado de chocolate ao leite",
+  "horario_promo": "Seg a sexta",
+  "funcionamento": "Seg a sexta 8:00 às 18:00 aos sábados 8:00 às 17:00",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "3bbe2c30e7618142946cdfb4740e5099",
+  "nome": "Mana Poke Marília",
+  "endereco": "Rua Coronel José Brás, 354, Boa Vista, Marília/SP",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Cozinha Saudável"
+  ],
+  "instagram": "https://www.instagram.com/manapoke.marilia/",
+  "produto": "Poke Passaporte",
+  "descricao": "Na compra de 1 Poke Passaporte, ganhe outro igual ou de menor valor.",
+  "horario_promo": "De segunda a sexta - dia todo.",
+  "funcionamento": "Segunda a segunda: 11h15 as 23h00",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "3c1e2c30e76181dd95bdf3c63cb210f4",
+  "nome": "Dubeergrill",
+  "endereco": "Av. Brg. Eduardo Gomes, 1850 - Res. Vale Verde, Marília - SP, 17514-661",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Churrascaria",
+   "Steakhouse"
+  ],
+  "instagram": "Dubeergrill",
+  "produto": "Panceta pururuca Dubeergrill",
+  "descricao": "Panceta Pururuca Dubeergrill",
+  "horario_promo": "Terça a sexta das 18:30 às 22:30",
+  "funcionamento": "Terça a sabado das 18:30 às 23:00 almoço aos sábados domingos e feriados das 11:30 às 16:00",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "3c1e2c30e76181e7bc8aeb95730d723e",
+  "nome": "Dona Raposa",
+  "endereco": "Rua liberdade , 174",
+  "status": "Página Aprovada",
+  "segmento": [
+   "Bar e Restaurante",
+   "Hamburgueria"
+  ],
+  "instagram": "dona_raposa_bar__gastronomia",
+  "produto": "Lanche de catupiry empanado",
+  "descricao": "Pão de brioche selado na manteiga, hambúrguer artesanal de costela 180g, queijo muçarela e queijo prato derretidos, cebola, o nosso irresistível Catupiry Original® empanado crocante e com o nosso molho",
+  "horario_promo": "Segunda a quinta das 18:00 às 23:45",
+  "funcionamento": "Todos os dias das 18:00 às 23:45 hs",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ },
+ {
+  "id": "3cfe2c30e7618186927ee34848438c5b",
+  "nome": "Lero Lero Açaí",
+  "endereco": "17515200",
+  "status": "Desistiu Após Minuta",
+  "segmento": [
+   "Doces e Sorveterias"
+  ],
+  "instagram": "Lero Lero Açaí",
+  "produto": "Cestinha Tentação",
+  "descricao": "Cesta de Biju recheado com recheio de avelã com duas bolas de sorvetes artesanal fabricado pela Lero Lero a escolha do cliente recheado com morangos e chantilly  uma explosão de sabor a cada colherada..",
+  "horario_promo": "Todos os dias",
+  "funcionamento": "Das 10:00 ás 22:00",
+  "so_delivery": [
+   "Não"
+  ],
+  "ponto_retirada": [
+   "Sim"
+  ]
+ }
+]

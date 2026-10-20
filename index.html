@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mapa de Parceiros</title>
+<meta name="description" content="Mapa interativo dos parceiros do Passaporte Gastronômico Marília, com os destinos mais próximos de você.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2222%22 fill=%22%23c2412d%22/><text x=%2250%22 y=%2270%22 font-size=%2260%22 text-anchor=%22middle%22>🍽️</text></svg>">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #faf7f2;
+    --panel: #ffffff;
+    --text: #1f1a17;
+    --muted: #6b625c;
+    --line: #e7e0d8;
+    --accent: #c2412d;
+    --accent-soft: #fbe9e5;
+    --accent-ink: #8f2c1e;
+    --chip: #f1ece6;
+    --chip-active: #1f1a17;
+    --you: #1d6fd1;
+    --shadow: 0 8px 28px rgba(31, 26, 23, .14);
+    --radius: 14px;
+    --sidebar-w: 400px;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: var(--text); background: var(--bg);
+    -webkit-font-smoothing: antialiased;
+  }
+  #app { display: grid; grid-template-columns: var(--sidebar-w) 1fr; height: 100dvh; }
+  #map { height: 100%; width: 100%; background: #e9e4dc; }
+
+  /* ---------- sidebar ---------- */
+  #sidebar {
+    display: flex; flex-direction: column; min-height: 0;
+    background: var(--panel); border-right: 1px solid var(--line); z-index: 1000;
+  }
+  header { padding: 18px 18px 12px; border-bottom: 1px solid var(--line); }
+  .brand { display: flex; align-items: center; gap: 10px; }
+  .brand .logo {
+    width: 36px; height: 36px; border-radius: 10px; background: var(--accent); color: #fff;
+    display: grid; place-items: center; font-size: 20px; flex: none;
+  }
+  .brand h1 { font-size: 16px; margin: 0; line-height: 1.2; }
+  .brand p { margin: 2px 0 0; font-size: 12px; color: var(--muted); }
+
+  .locate { margin-top: 14px; display: grid; gap: 8px; }
+  .row { display: flex; gap: 8px; }
+  input[type=search], input[type=text] {
+    flex: 1; min-width: 0; font: inherit; font-size: 14px; padding: 10px 12px;
+    border: 1px solid var(--line); border-radius: 10px; background: var(--bg); color: var(--text);
+  }
+  input:focus { outline: 2px solid var(--accent); outline-offset: 0; border-color: transparent; }
+  button { font: inherit; cursor: pointer; }
+  .btn {
+    padding: 10px 14px; border-radius: 10px; border: 1px solid var(--line);
+    background: var(--panel); color: var(--text); font-weight: 600; font-size: 14px;
+    display: inline-flex; align-items: center; gap: 6px; white-space: nowrap;
+  }
+  .btn:hover { background: var(--chip); }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .btn.primary:hover { background: var(--accent-ink); }
+  .btn.gps { width: 100%; justify-content: center; }
+  .btn.gps-inline { display: none; padding: 10px 12px; }
+  .status { font-size: 12px; color: var(--muted); min-height: 16px; }
+  .status.you { color: var(--you); font-weight: 600; }
+  .status a { color: inherit; }
+
+  .filters { padding: 10px 18px; display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; border-bottom: 1px solid var(--line); flex: none; }
+  .filters::-webkit-scrollbar { display: none; }
+  .chip {
+    flex: none; padding: 6px 11px; border-radius: 999px; border: 1px solid transparent;
+    background: var(--chip); font-size: 13px; font-weight: 500; color: var(--text);
+  }
+  .chip.active { background: var(--chip-active); color: #fff; }
+
+  .listwrap { flex: 1; min-height: 0; overflow-y: auto; }
+  .list-head { padding: 10px 18px 4px; font-size: 12px; color: var(--muted); display: flex; justify-content: space-between; align-items: center; }
+  .list { list-style: none; margin: 0; padding: 0 10px 20px; }
+  .item {
+    display: grid; grid-template-columns: 40px 1fr auto; gap: 12px; align-items: center;
+    padding: 12px 10px; border-radius: 12px; cursor: pointer;
+  }
+  .item:hover, .item.active { background: var(--bg); }
+  .item .ico { width: 40px; height: 40px; border-radius: 12px; background: var(--accent-soft); display: grid; place-items: center; font-size: 20px; }
+  .item .name { font-weight: 600; font-size: 14px; line-height: 1.25; }
+  .item .sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .item .dist { font-size: 13px; font-weight: 600; color: var(--accent-ink); text-align: right; white-space: nowrap; }
+  .item .dist small { display: block; font-weight: 400; color: var(--muted); font-size: 11px; }
+  .empty { padding: 40px 20px; text-align: center; color: var(--muted); font-size: 14px; }
+
+  /* ---------- detail ---------- */
+  .detail { display: none; flex-direction: column; min-height: 0; flex: 1; }
+  .detail.open { display: flex; }
+  .detail .top { padding: 12px 18px; border-bottom: 1px solid var(--line); }
+  .back { background: none; border: 0; color: var(--accent-ink); font-weight: 600; padding: 4px 0; font-size: 14px; }
+  .detail .body { padding: 16px 18px 24px; overflow-y: auto; }
+  .detail h2 { margin: 0 0 6px; font-size: 20px; line-height: 1.2; }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 14px; }
+  .tag { font-size: 12px; padding: 4px 9px; border-radius: 999px; background: var(--chip); color: var(--muted); font-weight: 500; }
+  .tag.warn { background: #fff4d6; color: #7a5200; }
+  .offer { background: var(--accent-soft); border-radius: var(--radius); padding: 14px; margin-bottom: 14px; }
+  .offer .label { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--accent-ink); font-weight: 700; }
+  .offer .title { font-weight: 700; font-size: 15px; margin: 4px 0; }
+  .offer .desc { font-size: 13px; color: #4a3f39; line-height: 1.45; }
+  dl { margin: 0; display: grid; grid-template-columns: 110px 1fr; gap: 8px 10px; font-size: 13px; }
+  dt { color: var(--muted); }
+  dd { margin: 0; line-height: 1.4; }
+  .actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 18px; }
+  .actions .btn { justify-content: center; }
+  .actions .btn.wide { grid-column: 1 / -1; }
+  .approx { font-size: 12px; color: #7a5200; background: #fff4d6; padding: 8px 10px; border-radius: 8px; margin-top: 14px; }
+
+  /* ---------- map bits ---------- */
+  .pin { width: 34px; height: 34px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg);
+         background: var(--accent); border: 2px solid #fff; box-shadow: 0 3px 8px rgba(0,0,0,.3);
+         display: grid; place-items: center; }
+  .pin span { transform: rotate(45deg); font-size: 16px; line-height: 1; }
+  .pin.sel { background: var(--chip-active); width: 40px; height: 40px; }
+  .pin.sel span { font-size: 19px; }
+  .you-dot { width: 18px; height: 18px; border-radius: 50%; background: var(--you); border: 3px solid #fff; box-shadow: 0 0 0 6px rgba(29,111,209,.25); }
+  .leaflet-popup-content-wrapper { border-radius: 12px; font-family: inherit; }
+  .leaflet-popup-content { margin: 10px 14px; font-size: 13px; }
+  .leaflet-popup-content b { display: block; font-size: 14px; margin-bottom: 2px; }
+  .leaflet-container { font-family: inherit; }
+
+  /* ---------- mobile ---------- */
+  .sheet-handle { display: none; }
+  @media (max-width: 760px) {
+    #app { display: block; position: relative; height: 100dvh; overflow: hidden; }
+    #map { position: absolute; inset: 0; height: 100%; }
+    #sidebar {
+      position: absolute; left: 0; right: 0; bottom: 0; height: 52dvh; border-right: 0;
+      border-radius: 18px 18px 0 0; box-shadow: var(--shadow);
+      transition: height .25s ease;
+    }
+    #sidebar.expanded { height: 88dvh; }
+    #sidebar.collapsed { height: 150px; }
+    #sidebar.collapsed .filters, #sidebar.collapsed .listwrap, #sidebar.collapsed .detail { display: none; }
+    #sidebar.collapsed header .locate .status { display: none; }
+    .sheet-handle { display: block; width: 100%; background: none; border: 0; padding: 10px 0 2px; }
+    .sheet-handle i { display: block; width: 42px; height: 5px; border-radius: 3px; background: var(--line); margin: 0 auto; }
+    header { padding: 4px 16px 10px; }
+    .brand h1 { font-size: 15px; }
+    .locate { margin-top: 10px; }
+    .btn.gps { display: none; }
+    .btn.gps-inline { display: inline-flex; }
+    .filters { padding: 8px 16px; }
+    :root { --sidebar-w: 100%; }
+  }
+</style>
+</head>
+<body>
+<div id="app">
+  <aside id="sidebar">
+    <button class="sheet-handle" id="sheetToggle" aria-label="Expandir ou recolher a lista"><i></i></button>
+    <header>
+      <div class="brand">
+        <div class="logo">🍽️</div>
+        <div>
+          <h1>Passaporte Gastronômico Marília</h1>
+          <p>Mapa de parceiros · <span id="count">0</span> destinos</p>
+        </div>
+      </div>
+      <div class="locate">
+        <div class="row loc-row">
+          <input type="search" id="addr" placeholder="Seu endereço ou bairro em Marília" autocomplete="street-address" enterkeyhint="search">
+          <button class="btn primary" id="addrBtn" title="Buscar endereço">Buscar</button>
+          <button class="btn gps-inline" id="gpsBtn2" title="Usar minha localização" aria-label="Usar minha localização">📍</button>
+        </div>
+        <button class="btn gps" id="gpsBtn">📍 Usar minha localização</button>
+        <div class="status" id="status">Informe seu endereço ou use o GPS para ver os parceiros mais próximos.</div>
+      </div>
+    </header>
+
+    <div class="filters" id="filters"></div>
+
+    <div class="listwrap" id="listwrap">
+      <div class="list-head"><span id="listTitle">Ordem alfabética</span><button class="back" id="clearLoc" style="display:none">Limpar localização</button></div>
+      <ul class="list" id="list"></ul>
+    </div>
+
+    <section class="detail" id="detail" aria-live="polite">
+      <div class="top"><button class="back" id="backBtn">← Voltar para a lista</button></div>
+      <div class="body" id="detailBody"></div>
+    </section>
+  </aside>
+  <div id="map" role="application" aria-label="Mapa dos parceiros"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="data/parceiros.js"></script>
+<script>
+(function () {
+  const P = (window.PARCEIROS || []).filter(p => p.lat && p.lon);
+  const ICONS = {
+    'Hamburgueria': '🍔', 'Pizzaria': '🍕', 'Cozinha Japonesa': '🍣', 'Cafeteria': '☕',
+    'Doces e Sorveterias': '🍨', 'Cozinha Saudável': '🥗', 'Cozinha Italiana': '🍝', 'Cozinha Mexicana': '🌮',
+    'Cozinha Árabe': '🥙', 'Steakhouse': '🥩', 'Churrascaria': '🥩', 'Bar e Restaurante': '🍺',
+    'Padaria': '🥐', 'Pastelaria': '🥟', 'Bistrô': '🍽️', 'Acaíteria': '🫐', 'Cozinha Chinesa': '🥡',
+    'Self Service': '🍛', 'Rotisserie': '🍗', 'Dark Kitchen (Retirada apenas)': '🛵'
+  };
+  const iconFor = p => ICONS[p.segmento[0]] || '🍴';
+  const CENTER = [-22.2139, -49.9458];
+
+  // ---------- state ----------
+  let you = null;          // {lat, lon, label}
+  let filter = 'Todos';
+  let query = '';
+  let selectedId = null;
+  const markers = new Map();
+
+  // ---------- map ----------
+  const map = L.map('map', { zoomControl: false }).setView(CENTER, 14);
+  L.control.zoom({ position: 'topright' }).addTo(map);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  }).addTo(map);
+
+  const pinIcon = (p, sel) => L.divIcon({
+    className: '', html: `<div class="pin${sel ? ' sel' : ''}"><span>${iconFor(p)}</span></div>`,
+    iconSize: sel ? [40, 40] : [34, 34], iconAnchor: sel ? [8, 40] : [6, 34], popupAnchor: [10, -34]
+  });
+  const layer = L.layerGroup().addTo(map);
+  let youMarker = null;
+
+  function renderMarkers(list) {
+    layer.clearLayers(); markers.clear();
+    list.forEach(p => {
+      const m = L.marker([p.lat, p.lon], { icon: pinIcon(p, p.id === selectedId), title: p.nome })
+        .bindPopup(`<b>${esc(p.nome)}</b>${esc(p.segmento.join(' · '))}<br><span style="color:#6b625c">${esc(p.produto || '')}</span>`)
+        .on('click', () => openDetail(p.id, false));
+      m.addTo(layer); markers.set(p.id, m);
+    });
+  }
+
+  // ---------- helpers ----------
+  function esc(s) { return String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
+  function dist(a, b) {
+    const R = 6371, toR = d => d * Math.PI / 180;
+    const dLat = toR(b.lat - a.lat), dLon = toR(b.lon - a.lon);
+    const h = Math.sin(dLat / 2) ** 2 + Math.cos(toR(a.lat)) * Math.cos(toR(b.lat)) * Math.sin(dLon / 2) ** 2;
+    return 2 * R * Math.asin(Math.sqrt(h));
+  }
+  const fmtKm = km => km < 1 ? `${Math.round(km * 1000)} m` : `${km.toFixed(1).replace('.', ',')} km`;
+  const walkMin = km => Math.max(1, Math.round(km / 4.5 * 60));
+  const norm = s => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+
+  function visible() {
+    let list = P.filter(p => filter === 'Todos' || p.segmento.includes(filter));
+    if (query) { const q = norm(query); list = list.filter(p => norm(p.nome).includes(q) || norm(p.segmento.join(' ')).includes(q) || norm(p.produto).includes(q) || norm(p.bairro).includes(q)); }
+    if (you) { list = list.map(p => ({ ...p, _d: dist(you, p) })).sort((a, b) => a._d - b._d || a.nome.localeCompare(b.nome, 'pt-BR')); }
+    else list = list.slice().sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
+    return list;
+  }
+
+  // ---------- filters ----------
+  function renderFilters() {
+    const counts = {};
+    P.forEach(p => p.segmento.forEach(s => counts[s] = (counts[s] || 0) + 1));
+    const segs = Object.keys(counts).sort((a, b) => counts[b] - counts[a] || a.localeCompare(b, 'pt-BR'));
+    const el = document.getElementById('filters');
+    el.innerHTML = [`<button class="chip${filter === 'Todos' ? ' active' : ''}" data-f="Todos">Todos (${P.length})</button>`]
+      .concat(segs.map(s => `<button class="chip${filter === s ? ' active' : ''}" data-f="${esc(s)}">${ICONS[s] || ''} ${esc(s)} (${counts[s]})</button>`)).join('');
+    el.querySelectorAll('.chip').forEach(b => b.onclick = () => { filter = b.dataset.f; closeDetail(); renderAll(); });
+  }
+
+  // ---------- list ----------
+  function renderList() {
+    const list = visible();
+    const ul = document.getElementById('list');
+    document.getElementById('listTitle').textContent = you ? `Mais próximos de ${you.label}` : 'Ordem alfabética';
+    document.getElementById('clearLoc').style.display = you ? '' : 'none';
+    if (!list.length) { ul.innerHTML = `<li class="empty">Nenhum parceiro encontrado com esse filtro.</li>`; return list; }
+    ul.innerHTML = list.map(p => `
+      <li class="item${p.id === selectedId ? ' active' : ''}" data-id="${p.id}">
+        <div class="ico">${iconFor(p)}</div>
+        <div>
+          <div class="name">${esc(p.nome)}</div>
+          <div class="sub">${esc(p.segmento.join(' · '))}${p.bairro ? ' · ' + esc(p.bairro) : ''}${p.so_delivery ? ' · 🛵 só delivery' : ''}</div>
+        </div>
+        ${you ? `<div class="dist">${fmtKm(p._d)}<small>~${walkMin(p._d)} min a pé</small></div>` : ''}
+      </li>`).join('');
+    ul.querySelectorAll('.item').forEach(li => li.onclick = () => openDetail(li.dataset.id, true));
+    return list;
+  }
+
+  function renderAll() {
+    const list = renderList();
+    renderMarkers(list);
+    if (!selectedId && list.length) {
+      const b = L.latLngBounds(list.map(p => [p.lat, p.lon]));
+      if (you) b.extend([you.lat, you.lon]);
+      const sheetH = isMobile() ? document.getElementById('sidebar').getBoundingClientRect().height : 0;
+      map.fitBounds(b.pad(0.08), { maxZoom: you ? 15 : 14, paddingTopLeft: [10, 10], paddingBottomRight: [10, sheetH + 10] });
+    }
+  }
+
+  // ---------- detail ----------
+  function openDetail(id, fly) {
+    const p = P.find(x => x.id === id); if (!p) return;
+    selectedId = id;
+    const d = you ? dist(you, p) : null;
+    const ig = p.instagram ? `https://instagram.com/${encodeURIComponent(p.instagram)}` : null;
+    const gm = `https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lon}`;
+    const wz = `https://waze.com/ul?ll=${p.lat},${p.lon}&navigate=yes`;
+    document.getElementById('detailBody').innerHTML = `
+      <h2>${iconFor(p)} ${esc(p.nome)}</h2>
+      <div class="tags">
+        ${p.segmento.map(s => `<span class="tag">${esc(s)}</span>`).join('')}
+        ${p.so_delivery ? '<span class="tag warn">🛵 Só delivery / retirada</span>' : ''}
+        ${p.ponto_retirada ? '<span class="tag">📘 Ponto de retirada do Passaporte</span>' : ''}
+      </div>
+      ${d != null ? `<p style="margin:0 0 12px;font-weight:600;color:var(--accent-ink)">${fmtKm(d)} de ${esc(you.label)} · ~${walkMin(d)} min a pé</p>` : ''}
+      <div class="offer">
+        <div class="label">Compre 1 leve 2</div>
+        <div class="title">${esc(p.produto || 'Consultar no local')}</div>
+        ${p.descricao ? `<div class="desc">${esc(p.descricao)}</div>` : ''}
+      </div>
+      <dl>
+        <dt>Válido</dt><dd>${esc(p.horario_promo || 'Consultar')}</dd>
+        <dt>Funcionamento</dt><dd>${esc(p.funcionamento || 'Consultar')}</dd>
+        <dt>Endereço</dt><dd>${esc(p.endereco)}${p.cep ? `<br><span style="color:var(--muted)">CEP ${p.cep.slice(0, 5)}-${p.cep.slice(5)}</span>` : ''}</dd>
+        ${ig ? `<dt>Instagram</dt><dd><a href="${ig}" target="_blank" rel="noopener">@${esc(p.instagram)}</a></dd>` : ''}
+      </dl>
+      ${p.precisao !== 'endereco' && p.precisao !== 'manual' ? `<div class="approx">⚠️ Posição aproximada no mapa (${p.precisao === 'rua' ? 'rua' : p.precisao === 'bairro' ? 'bairro' : 'cidade'}). Confira o endereço antes de ir.</div>` : ''}
+      <div class="actions">
+        <a class="btn primary" href="${gm}" target="_blank" rel="noopener">🗺️ Google Maps</a>
+        <a class="btn" href="${wz}" target="_blank" rel="noopener">🚗 Waze</a>
+        ${ig ? `<a class="btn wide" href="${ig}" target="_blank" rel="noopener">📸 Ver no Instagram</a>` : ''}
+      </div>`;
+    document.getElementById('listwrap').style.display = 'none';
+    document.getElementById('filters').style.display = 'none';
+    document.getElementById('detail').classList.add('open');
+    renderMarkers(visible());
+    const m = markers.get(id);
+    if (m) { if (fly) map.flyTo([p.lat, p.lon], Math.max(map.getZoom(), 16), { duration: .6 }); m.openPopup(); }
+    const sb = document.getElementById('sidebar');
+    if (isMobile() && fly) { sb.classList.remove('collapsed'); }
+  }
+  function closeDetail() {
+    selectedId = null;
+    document.getElementById('detail').classList.remove('open');
+    document.getElementById('listwrap').style.display = '';
+    document.getElementById('filters').style.display = '';
+    map.closePopup();
+    renderList(); renderMarkers(visible());
+  }
+  document.getElementById('backBtn').onclick = closeDetail;
+
+  // ---------- location ----------
+  const statusEl = document.getElementById('status');
+  function setYou(lat, lon, label) {
+    you = { lat, lon, label };
+    if (youMarker) youMarker.remove();
+    youMarker = L.marker([lat, lon], { icon: L.divIcon({ className: '', html: '<div class="you-dot"></div>', iconSize: [18, 18], iconAnchor: [9, 9] }), zIndexOffset: 1000, title: 'Você' })
+      .bindPopup(`<b>Você está aqui</b>${esc(label)}`).addTo(map);
+    statusEl.className = 'status you';
+    statusEl.textContent = `📍 ${label}`;
+    closeDetail(); selectedId = null; renderAll();
+    const sb = document.getElementById('sidebar');
+    if (isMobile()) sb.classList.remove('collapsed');
+  }
+  function clearYou() {
+    you = null; if (youMarker) { youMarker.remove(); youMarker = null; }
+    statusEl.className = 'status'; statusEl.textContent = 'Informe seu endereço ou use o GPS para ver os parceiros mais próximos.';
+    document.getElementById('addr').value = '';
+    closeDetail(); renderAll();
+  }
+  document.getElementById('clearLoc').onclick = clearYou;
+
+  async function searchAddress() {
+    const q = document.getElementById('addr').value.trim();
+    if (!q) return;
+    statusEl.className = 'status'; statusEl.textContent = 'Buscando endereço…';
+    try {
+      const url = 'https://nominatim.openstreetmap.org/search?' + new URLSearchParams({
+        q: /mar[ií]lia/i.test(q) ? q : `${q}, Marília, SP, Brasil`, format: 'jsonv2', limit: 1, countrycodes: 'br',
+        viewbox: '-50.05,-22.10,-49.85,-22.35', bounded: 1, 'accept-language': 'pt-BR'
+      });
+      const r = await fetch(url, { headers: { 'Accept': 'application/json' } });
+      const data = await r.json();
+      if (!data.length) { statusEl.textContent = 'Endereço não encontrado em Marília. Tente incluir o bairro ou só o nome da rua.'; return; }
+      const hit = data[0];
+      const a = hit.address || {};
+      const label = [a.road, a.house_number].filter(Boolean).join(', ') || a.suburb || a.neighbourhood || q;
+      setYou(parseFloat(hit.lat), parseFloat(hit.lon), label + (a.suburb && a.road ? ` (${a.suburb})` : ''));
+    } catch (e) {
+      statusEl.textContent = 'Não foi possível buscar o endereço agora. Tente novamente.';
+    }
+  }
+  document.getElementById('addrBtn').onclick = searchAddress;
+  document.getElementById('addr').addEventListener('keydown', e => { if (e.key === 'Enter') searchAddress(); });
+  document.getElementById('addr').addEventListener('search', e => { if (!e.target.value) clearYou(); });
+
+  function useGps() {
+    if (!navigator.geolocation) { statusEl.textContent = 'Seu navegador não permite localização.'; return; }
+    statusEl.className = 'status'; statusEl.textContent = 'Obtendo sua localização…';
+    navigator.geolocation.getCurrentPosition(
+      pos => setYou(pos.coords.latitude, pos.coords.longitude, 'sua localização atual'),
+      err => { statusEl.textContent = err.code === 1 ? 'Permissão de localização negada. Digite seu endereço acima.' : 'Não foi possível obter a localização. Digite seu endereço acima.'; },
+      { enableHighAccuracy: true, timeout: 12000, maximumAge: 60000 }
+    );
+  }
+  document.getElementById('gpsBtn').onclick = useGps;
+  document.getElementById('gpsBtn2').onclick = useGps;
+
+  // ---------- search by name (reuses the address box? no: separate quick filter via query param) ----------
+  // Simple: typing a partner name in the address box and pressing Buscar geocodes it; so we add name search on the list header instead.
+  const head = document.querySelector('.list-head');
+  const qi = document.createElement('input'); qi.type = 'search'; qi.placeholder = 'Filtrar por nome…'; qi.style.cssText = 'margin:0 18px 6px;width:calc(100% - 36px);padding:8px 10px;font-size:13px';
+  qi.oninput = () => { query = qi.value; renderList(); renderMarkers(visible()); };
+  head.parentNode.insertBefore(qi, head);
+
+  // ---------- mobile sheet ----------
+  function isMobile() { return window.matchMedia('(max-width: 760px)').matches; }
+  const sb = document.getElementById('sidebar');
+  document.getElementById('sheetToggle').onclick = () => {
+    if (sb.classList.contains('expanded')) sb.classList.replace('expanded', 'collapsed');
+    else if (sb.classList.contains('collapsed')) sb.classList.remove('collapsed');
+    else sb.classList.add('expanded');
+    setTimeout(() => map.invalidateSize(), 280);
+  };
+  map.on('dragstart', () => { if (isMobile() && !sb.classList.contains('collapsed')) { sb.classList.remove('expanded'); sb.classList.add('collapsed'); setTimeout(() => map.invalidateSize(), 280); } });
+
+  // ---------- init ----------
+  document.getElementById('count').textContent = P.length;
+  renderFilters();
+  renderAll();
+})();
+</script>
+</body>
+</html>
