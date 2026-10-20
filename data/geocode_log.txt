@@ -1,18 +1,18 @@
 Google Geocoding API: chave encontrada, enderecos com numero serao resolvidos pelo Google.
 
-Tarantella Pizzaria: street='Santo Antônio' num=350 bairro=None cep=None
+Tarantella: street='Santo Antônio' num=350 bairro=None cep=None
    -> endereco: -22.22111, -49.95193  (Av. Santo Antônio, 350 - Centro, Marília - SP, 17500-070, Brasil (Goog)
 La Vida: street='Rua Campos Novos Paulista' num=14 bairro=None cep=None
    -> endereco: -22.22424, -49.93663  (R. Campos Novos Paulista, 14 - Jardim Fragata, Marília - SP, 17519-060)
 Tasso Bar: street='Avenida Rio Claro' num=59 bairro=Cascata cep=17515010
    -> endereco: -22.21601, -49.94015  (Av. Rio Claro, 59 - Cascata, Marília - SP, 17515-010, Brasil (Google R)
-pura beach cafe e restaurante: street='Avenida Jesus Montolar' num=1200 bairro=Fragata cep=17519211
+Pura Beach Café: street='Avenida Jesus Montolar' num=1200 bairro=Fragata cep=17519211
    -> endereco: -22.22968, -49.92564  (Av. Jesus Montolar, 1200 - Parque das Industrias, Marília - SP, 17521,)
 Nonnos Burger: street='Avenida Campinas' num=725 bairro=Banzato cep=17515180
    -> endereco: -22.21049, -49.94181  (Av. Campinas, 725 - Banzato, Marília - SP, 17515-180, Brasil (Google R)
 Nonnos Greens: street='Avenida Campinas' num=725 bairro=Banzato cep=17515180
    -> endereco: -22.21049, -49.94181  (Av. Campinas, 725 - Banzato, Marília - SP, 17515-180, Brasil (Google R)
-arigato sushi delivery: street='Rua Vinte e Um de Abril' num=433 bairro=Jardim Maria Izabel cep=17516170
+Arigatô Sushi: street='Rua Vinte e Um de Abril' num=433 bairro=Jardim Maria Izabel cep=17516170
    -> endereco: -22.21689, -49.93840  (R. Vinte e Um de Abril, 433 - Jardim Maria Izabel, Marília - SP, 17515)
 Bentô Sushi: street='Avenida Santo Antônio' num=360 bairro=Centro cep=17500070
    -> endereco: -22.22102, -49.95196  (Av. Santo Antônio, 360 - Centro, Marília - SP, 17500-070, Brasil (Goog)
@@ -20,85 +20,85 @@ Thatha Caffé: street='Avenida Monte Carmelo' num=136 bairro=Fragata cep=1750136
    -> endereco: -22.22370, -49.94200  (R. Monte Carmelo, 136 - Fragata, Marília - SP, 17501-360, Brasil (Goog)
 Japakitos: street='Rua Doutor Reinaldo Machado' num=178 bairro=Fragata cep=17519080
    -> endereco: -22.22631, -49.93630  (R. Dr. Reinaldo Machado, 178 - Fragata, Marília - SP, 17509-200, Brasi)
-Pasttini - Esmeralda Shopping e Marilia Shopping: street='Avenida das Esmeraldas' num=701 bairro=None cep=None
+Pasttini - Esmeralda e Marília Shopping: street='Avenida das Esmeraldas' num=701 bairro=None cep=None
    -> manual: -22.22378, -49.93367  (ajuste manual: Esmeralda Shopping (POI no OSM))
 Pasttini Liberdade: street='Rua mecenas pinto Bueno' num=480 bairro=None cep=None
    -> endereco: -22.21729, -49.93603  (R. Mecenas Pinto Bueno, 480 - Jardim Maria Izabel, Marília - SP, 17516)
-Piza pizzaria: street='Avenida República' num=2859 bairro=Palmital cep=17510402
+Piza Pizzaria: street='Avenida República' num=2859 bairro=Palmital cep=17510402
    -> manual: -22.19806, -49.95616  (ajuste manual: POI 'Piza Pizzaria' na Google Geocoding (Av. Republica,)
 Gaia Café: street='Sperendido Cabrini' num=321 bairro=None cep=None
    -> endereco: -22.22309, -49.93125  (R. Sperendio Cabrini, 321 - Jardim Maria Izabel, Marília - SP, 17516-3)
-OAKBERRY Marília: street='Rua Akira Nagasse' num=110 bairro=Boa Vista cep=17501530
+Oakberry: street='Rua Akira Nagasse' num=110 bairro=Boa Vista cep=17501530
    -> manual: -22.22908, -49.95162  (ajuste manual: loja OAKBERRY no Google (POI ROOFTOP, Alameda das Sibip)
 Dona Elisa: street='Rua dos Bancários' num=143 bairro=Jardim Maria Izabel cep=17516032
    -> endereco: -22.21789, -49.93821  (R. dos Bancários, 143 - Jardim Maria Izabel, Marília - SP, 17516-032, )
-Vino Marilia: street='Avenida das Esmeraldas' num=195 bairro=Jardim Tangará cep=17516000
+Vino Marília: street='Avenida das Esmeraldas' num=195 bairro=Jardim Tangará cep=17516000
    -> endereco: -22.22205, -49.93740  (Av. das Esmeraldas, 195 - Jardim Tangara, Marília - SP, 17516-000, Bra)
 Bar do Amorim: street='Rua Júlio de Mesquita' num=582 bairro=Jardim Maria Izabel cep=17515230
    -> endereco: -22.21716, -49.93770  (R. Júlio de Mesquita, 582 - Jardim Maria Izabel, Marília - SP, 17515-2)
-Seu Batista Lanches & Pizzas: street='Rua Santa Helena' num=303 bairro=Jardim Alvorada cep=17513322
+Seu Batista: street='Rua Santa Helena' num=303 bairro=Jardim Alvorada cep=17513322
    -> endereco: -22.20660, -49.93736  (R. Santa Helena, 303 - Jardim Maria Izabel, Marília - SP, 17513-322, B)
-Restaurante Casa Toscana: street='Rua Álvares Cabral' num=263 bairro=Centro cep=17501100
+Casa Toscana: street='Rua Álvares Cabral' num=263 bairro=Centro cep=17501100
    -> endereco: -22.22051, -49.94539  (R. Álvares Cabral, 263 - Centro, Marília - SP, 17501-100, Brasil (Goog)
-DOCTOR BEER: street='Avenida Rio Branco' num=1331 bairro=Alto Cafezal cep=17502000
+Doctor Beer: street='Avenida Rio Branco' num=1331 bairro=Alto Cafezal cep=17502000
    -> endereco: -22.22465, -49.96020  (Av. Rio Branco, 1331 - Alto Cafezal, Marília - SP, 17502-000, Brasil ()
-Didiu Massas Artesanais: street='Avenida Cascata' num=96 bairro=Jardim Maria Izabel cep=17515300
+Didiu Massas: street='Avenida Cascata' num=96 bairro=Jardim Maria Izabel cep=17515300
    -> endereco: -22.21217, -49.93686  (Av. Cascata, 96 - Jardim Maria Izabel, Marília - SP, 17515-300, Brasil)
 La Bamba Food: street='Avenida Rio Branco' num=1266 bairro=Alto Cafezal cep=17502000
    -> endereco: -22.22413, -49.95983  (Av. Rio Branco, 1266 - Alto Cafezal, Marília - SP, 17502-000, Brasil ()
 Le Marché Bistro: street='Rua Álvares Cabral' num=190 bairro=Centro cep=17501100
    -> endereco: -22.22096, -49.94599  (R. Álvares Cabral, 190 - Centro, Marília - SP, 17501-100, Brasil (Goog)
-Lobinho Churros Rio Branco: street='Avenida Rio Branco' num=1256 bairro=Alto Cafezal cep=17502000
+Lobinho Churros: street='Avenida Rio Branco' num=1256 bairro=Alto Cafezal cep=17502000
    -> endereco: -22.22405, -49.95982  (Av. Rio Branco, 1256 - Alto Cafezal, Marília - SP, 17502-000, Brasil ()
-Gostoso Botequim Marilia: street='Rua Sete de Setembro' num=387 bairro=Boa Vista cep=17501560
+Gostoso Botequim: street='Rua Sete de Setembro' num=387 bairro=Boa Vista cep=17501560
    -> endereco: -22.22352, -49.95138  (R. Sete de Setembro, 387 - Boa Vista, Marília - SP, 17501-560, Brasil )
-SEU GREGO: street='Rua Nove de Julho' num=1294 bairro=Centro cep=17500120
+Seu Grego: street='Rua Nove de Julho' num=1294 bairro=Centro cep=17500120
    -> endereco: -22.21783, -49.94968  (R. Nove de Julho, 1294 - Centro, Marília - SP, 17500-120, Brasil (Goog)
-GRAPPA CAFFÈ: street='Rua Álvares Cabral' num=351 bairro=Centro cep=17501100
+Grappa Caffè: street='Rua Álvares Cabral' num=351 bairro=Centro cep=17501100
    -> endereco: -22.22040, -49.94452  (R. Álvares Cabral, 351 - Centro, Marília - SP, 17501-100, Brasil (Goog)
 Cupim: street='Avenida Presidente Roosevelt' num=4 bairro=Boa Vista cep=17501480
    -> endereco: -22.22438, -49.95111  (Av. Pres. Roosevelt, 4 - Santa Olivia, Marília - SP, 17501-480, Brasil)
-Patriota Emporio & Gastronomia: street='Rua Rio Grande do Sul' num=506 bairro=Marília cep=17509130
+Patriota: street='Rua Rio Grande do Sul' num=506 bairro=Marília cep=17509130
    -> endereco: -22.21549, -49.94056  (R. Rio Grande do Sul, 506 - Marília, SP, 17509-130, Brasil (Google ROO)
 Rock Temakeria: street='Avenida das esmeraldas' num=701 bairro=None cep=None
    -> manual: -22.22378, -49.93367  (ajuste manual: Esmeralda Shopping (POI no OSM))
-Campina Buguer: street='Avenida João Martins Coelho' num=270 bairro=Jardim Santa Antonieta cep=17512310
+Campina Burguer: street='Avenida João Martins Coelho' num=270 bairro=Jardim Santa Antonieta cep=17512310
    -> endereco: -22.17203, -49.97151  (Av. João Martins Coelho, 270 - Jardim Santa Antonieta, Marília - SP, 1)
 Sushiya: street='Rua Limeira' num=103 bairro=Marília cep=17509170
    -> endereco: -22.21922, -49.94090  (R. Limeira, 103 - Marília, SP, 17509-170, Brasil (Google ROOFTOP))
 Chilis Tex Mex: street='Avenida Nicola Ricci' num=310 bairro=Santa Tereza cep=17507210
    -> manual: -22.19325, -49.96174  (ajuste manual: POI 'Chilis Tex Mex' na Google Geocoding (Av. Nicola Ri)
-Gabriel lanches: street='Rua Prudente de Morais' num=325 bairro=Alto Cafezal cep=17504081
+Gabriel Lanches: street='Rua Prudente de Morais' num=325 bairro=Alto Cafezal cep=17504081
    -> endereco: -22.21789, -49.95203  (R. Prudente de Morais, 325 - Centro, Marília - SP, 17500-140, Brasil ()
-Lis café: street='Rua Bandeirantes' num=89 bairro=Centro cep=17501090
+Lis Café: street='Rua Bandeirantes' num=89 bairro=Centro cep=17501090
    -> endereco: -22.21990, -49.94716  (R. Bandeirantes, 89 - Centro, Marília - SP, 17501-090, Brasil (Google )
 Marrabah: street='Rua Álvares Cabral' num=418 bairro=Centro cep=17501100
    -> endereco: -22.22053, -49.94380  (R. Álvares Cabral, 418 - Centro, Marília - SP, 17501-100, Brasil (Goog)
 Maré Beach Club: street='Avenida Jóquei Clube' num=117 bairro=Jóquei Clube cep=17521450
    -> endereco: -22.23316, -49.91851  (Av. Jóquei Clube, 117 - Jóquei Clube, Marília - SP, 17521-450, Brasil )
-Punta Cana Pastelaria: street='Avenida Presidente Roosevelt' num=151 bairro=None cep=None
+Punta Cana: street='Avenida Presidente Roosevelt' num=151 bairro=None cep=None
    -> endereco: -22.22546, -49.95027  (Av. Pres. Roosevelt, 151 - Boa Vista, Marília - SP, 17501-480, Brasil )
-HEAVEN BURGUER: street='Rua Rio Grande do Sul' num=511 bairro=Marília cep=17509130
+Heaven Burguer: street='Rua Rio Grande do Sul' num=511 bairro=Marília cep=17509130
    -> endereco: -22.21530, -49.94068  (R. Rio Grande do Sul, 511 - Marília, SP, 17509-130, Brasil (Google ROO)
 Gelateria Lunata: street='Rua Sete de Setembro' num=155 bairro=Boa Vista cep=17501560
    -> endereco: -22.22274, -49.94921  (R. Sete de Setembro, 155 - Boa Vista, Marília - SP, 17501-560, Brasil )
 155 Bar e Espetaria: street='Rua Hidekichi Nomura' num=155 bairro=Fragata cep=17519221
    -> endereco: -22.22750, -49.93325  (R. Hidekichi Nomura, 155 - Fragata, Marília - SP, 17519-221, Brasil (G)
-Amén casa de sabor: street='Avenida Santo Antônio' num=28 bairro=Boa Vista cep=17501470
+Amén Casa de Sabor: street='Avenida Santo Antônio' num=28 bairro=Boa Vista cep=17501470
    -> endereco: -22.22383, -49.95088  (Av. Santo Antônio, 28 - Boa Vista, Marília - SP, 17501-470, Brasil (Go)
-Pé de Café- cafeteria: street='Tua Coronel José Bras' num=468 bairro=None cep=None
+Pé de Café: street='Tua Coronel José Bras' num=468 bairro=None cep=None
    -> endereco: -22.22260, -49.95230  (R. Cel. José Brás, 468 - Boa Vista, Marília - SP, 17501-570, Brasil (G)
 Zuper Funcional: street='Rua Pedro Pretti' num=7 bairro=Jardim Maria Izabel cep=17516290
    -> endereco: -22.22504, -49.93156  (R. Pedro Preti, 7 - Jardim Maria Izabel, Marília - SP, 17516-290, Bras)
-KAIIA FRESH FOOD: street='RUA DR REINALDO MACHADO' num=178 bairro=None cep=None
+Kaiia Fresh: street='RUA DR REINALDO MACHADO' num=178 bairro=None cep=None
    -> endereco: -22.22631, -49.93630  (R. Dr. Reinaldo Machado, 178 - Fragata, Marília - SP, 17509-200, Brasi)
-Aji Sushi Delivery: street='Vinte e um de Abril' num=567 bairro=None cep=None
+Aji Sushi: street='Vinte e um de Abril' num=567 bairro=None cep=None
    -> endereco: -22.21820, -49.93863  (R. Vinte e Um de Abril, 567 - Jardim Maria Izabel, Marília - SP, 17516)
-LEIA ATELIE DE  DOCES: street='Rua Mecenas Pinto Bueno' num=678 bairro=Jardim Maria Izabel cep=17516030
+Léia Ateliê de Doces: street='Rua Mecenas Pinto Bueno' num=678 bairro=Jardim Maria Izabel cep=17516030
    -> endereco: -22.21901, -49.93627  (R. Mecenas Pinto Bueno, 678 - Jardim Maria Izabel, Marília - SP, 17516)
-BOTECO DO BOTELHO: street='Rua Carlos Botelho' num=386 bairro=Jardim Maria Izabel cep=17515240
+Boteco do Botelho: street='Rua Carlos Botelho' num=386 bairro=Jardim Maria Izabel cep=17515240
    -> endereco: -22.21600, -49.93662  (R. Carlos Botelho, 386 - Jardim Maria Izabel, Marília - SP, 17515-240,)
-Vovó formiga Bolos caseiros: street='Avenida Santo Antônio' num=571 bairro=Centro cep=17500070
+Vovó Formiga: street='Avenida Santo Antônio' num=571 bairro=Centro cep=17500070
    -> endereco: -22.21936, -49.95308  (Av. Santo Antônio, 571 - Centro, Marília - SP, 17500-070, Brasil (Goog)
 Mana Poke Marília: street='Rua Coronel José Brás' num=354 bairro=None cep=None
    -> endereco: -22.22224, -49.95126  (R. Cel. José Brás, 354 - Boa Vista, Marília - SP, 17501-570, Brasil (G)
