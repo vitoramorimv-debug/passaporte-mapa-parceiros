@@ -8,6 +8,9 @@ Resultados ficam em cache em data/geocode_cache.json para reexecucoes rapidas.
 """
 import json, os, re, sys, time, unicodedata, urllib.parse, urllib.request
 from pathlib import Path
+import sys as _sys
+_sys.path.insert(0, str(Path(__file__).resolve().parent))
+from dias_semana import dias_semana
 
 ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "data" / "parceiros_raw.json"
@@ -346,6 +349,7 @@ def main():
             "produto": p.get("produto"),
             "descricao": p.get("descricao"),
             "horario_promo": p.get("horario_promo"),
+            "dias_semana": dias_semana(p.get("horario_promo")),
             "funcionamento": p.get("funcionamento"),
             "so_delivery": so_delivery,
             "ponto_retirada": "Sim" in (p.get("ponto_retirada") or []),

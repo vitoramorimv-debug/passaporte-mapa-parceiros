@@ -16,6 +16,12 @@
   "produto": "Contra Filé Acebolado (500g) com Fritas (300g)",
   "descricao": "Na compra de 1 (um) Contra Filé Acebolado (500g) com Fritas (300g), ganhe outro igual gratuitamente. Modalidade: válido somente para consumo no local.",
   "horario_promo": "Segunda a Quinta: 17h00 às 23h00",
+  "dias_semana": [
+   "seg",
+   "ter",
+   "qua",
+   "qui"
+  ],
   "funcionamento": "Segunda a sexta 17h às 00h sábado das 11h às 00h",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -38,6 +44,11 @@
   "produto": "Carpaccio de Salmão Trufado",
   "descricao": "Na compra de 1 (um) Carpaccio de Salmão Trufado, ganhe outro igual gratuitamente. Modalidade: válido somente para retirada.",
   "horario_promo": "Segunda, terça e quinta-feira: 18h30 às 22h45",
+  "dias_semana": [
+   "seg",
+   "ter",
+   "qui"
+  ],
   "funcionamento": "Todos os dias, das 18:30 ás 23h - Quarta feira Fechado",
   "so_delivery": true,
   "ponto_retirada": true,
@@ -61,6 +72,15 @@
   "produto": "Combo de Empadas (2 salgadas + 1 doce)",
   "descricao": "Na compra de 1 (um) combo de Empadas com 2 (duas) empadas salgadas e 1 (uma) empada doce, ganhe outro combo igual gratuitamente. Modalidade: válido para consumo no local e retirada.",
   "horario_promo": "Todos os dias: 09h00 às 18h00",
+  "dias_semana": [
+   "seg",
+   "ter",
+   "qua",
+   "qui",
+   "sex",
+   "sab",
+   "dom"
+  ],
   "funcionamento": "Segunda a Domingo das 9:00 às 18:00",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -83,6 +103,12 @@
   "produto": "Porção de Hot Roll com Cream Cheese e Crispy de Couve",
   "descricao": "Na compra de 1 (uma) Porção de Hot Roll com Cream Cheese e Crispy de Couve, ganhe outra Porção de Hot Roll com Cream Cheese e Crispy de Couve gratuitamente. Modalidade: válido para consumo no local e retirada.",
   "horario_promo": "Terça a Sexta: 18h30 às 22h30",
+  "dias_semana": [
+   "ter",
+   "qua",
+   "qui",
+   "sex"
+  ],
   "funcionamento": "terça a domingo das 18:30 as 22:30",
   "so_delivery": true,
   "ponto_retirada": true,
@@ -105,6 +131,11 @@
   "produto": "Porção de Bolinho Prexeca",
   "descricao": "Na compra de 1 (uma) porção de Bolinho Prexeca, ganhe outra porção igual gratuitamente. Modalidade: válido somente para consumo no local.",
   "horario_promo": "Segunda a Quarta: 08h00 às 23h59",
+  "dias_semana": [
+   "seg",
+   "ter",
+   "qua"
+  ],
   "funcionamento": "Segunda a sábado das 8 às 0 hrs",
   "so_delivery": false,
   "ponto_retirada": false,
@@ -129,6 +160,11 @@
   "produto": "Porção de Hot Roll de Salmão (10 unidades)",
   "descricao": "Na compra de 1 (uma) porção de Hot Roll de Salmão (10 unidades), ganhe outra porção igual gratuitamente. Modalidade: válido somente para retirada.",
   "horario_promo": "Terça a Quinta: 17h30 às 23h00",
+  "dias_semana": [
+   "ter",
+   "qua",
+   "qui"
+  ],
   "funcionamento": "Todos os dias, das 10 ás 23h",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -151,6 +187,11 @@
   "produto": "Porção de Sassami Crocante com molho especial de mel",
   "descricao": "Na compra de 1 (uma) porção de Sassami Crocante, acompanhada de molho especial de mel, ganhe outra igual gratuitamente. Modalidade: válido somente para consumo no local.",
   "horario_promo": "Segunda a Quarta: 17h00 às 23h00",
+  "dias_semana": [
+   "seg",
+   "ter",
+   "qua"
+  ],
   "funcionamento": "Segunda a sabado , 17 horas as 23",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -173,6 +214,13 @@
   "produto": "Combo Start Burguer + batata + refrigerante em lata",
   "descricao": "Na compra de 1 (um) combo com Start Burguer, batata e refrigerante em lata, ganhe outro combo igual gratuitamente. Modalidade: válido para consumo no local e retirada.",
   "horario_promo": "Terça a Domingo, exceto sábados: 18h30 às 23h30",
+  "dias_semana": [
+   "ter",
+   "qua",
+   "qui",
+   "sex",
+   "dom"
+  ],
   "funcionamento": "Terça a domingo das 18h 30 as 23h 30",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -195,6 +243,14 @@
   "produto": "Tagliatelle Mignon Mostarda",
   "descricao": "Na compra de 1 (um) Tagliatelle Mignon Mostarda, ganhe outro igual gratuitamente. Modalidade: válido para consumo no local e retirada.",
   "horario_promo": "Terça a Domingo: 11h30 às 14h30; Terça a Sábado: 19h00 às 23h00",
+  "dias_semana": [
+   "ter",
+   "qua",
+   "qui",
+   "sex",
+   "sab",
+   "dom"
+  ],
   "funcionamento": "Almoço de terca a domingo das 11:30h as 14:30h, jantar de terca a sábado das 19h as 23h",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -217,6 +273,11 @@
   "produto": "Rodízio da casa",
   "descricao": "Na compra de 1 (um) Rodízio da casa, ganhe outro igual gratuitamente. Modalidade: válido somente para consumo no local.",
   "horario_promo": "Quinta a Sábado: 18h00 às 23h00",
+  "dias_semana": [
+   "qui",
+   "sex",
+   "sab"
+  ],
   "funcionamento": "Terca a domingo, 18h as 23h",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -239,6 +300,13 @@
   "produto": "Massa Carbonara",
   "descricao": "Na compra de 1 (uma) Massa Carbonara (talharim com bacon, gemas de ovos e queijo parmesão), ganhe outra igual gratuitamente. Modalidade: válido somente para consumo no local.",
   "horario_promo": "Domingo a Quinta: 18h30 às 23h30",
+  "dias_semana": [
+   "seg",
+   "ter",
+   "qua",
+   "qui",
+   "dom"
+  ],
   "funcionamento": "Todos dias 1130 as 2330",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -261,6 +329,12 @@
   "produto": "Nhoque de Batata Inglesa ao Molho Sugo",
   "descricao": "Na compra de 1 (um) Nhoque de Batata Inglesa ao Molho Sugo, ganhe outro igual gratuitamente. Modalidade: válido para consumo no local e retirada.",
   "horario_promo": "Terça a Sexta: 09h00 às 22h30",
+  "dias_semana": [
+   "ter",
+   "qua",
+   "qui",
+   "sex"
+  ],
   "funcionamento": "Terça a sábado das 09:00 as 22:30. Domingo das 09:00 as 15:00",
   "so_delivery": true,
   "ponto_retirada": true,
@@ -283,6 +357,12 @@
   "produto": "Drink do cardápio (ganhe outro de igual ou menor valor)",
   "descricao": "Na compra de 1 (um) drink do cardápio, ganhe outro de igual ou menor valor gratuitamente. Modalidade: válido somente para consumo no local.",
   "horario_promo": "Quarta a Sábado: 18h00 às 00h00",
+  "dias_semana": [
+   "qua",
+   "qui",
+   "sex",
+   "sab"
+  ],
   "funcionamento": "QUARTA A SABADO DAS 18:00 AS 00:30",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -305,6 +385,13 @@
   "produto": "4 pacotes de salgados congelados 330g (12 un.), ganhe outros 4 pacotes",
   "descricao": "Na compra de 4 (quatro) pacotes de salgados congelados de 330g (12 unidades cada), ganhe outros 4 (quatro) pacotes gratuitamente, à escolha do consumidor dentre os sabores disponíveis no momento da retirada. Modalidade: válido somente para retirada.",
   "horario_promo": "Segunda a Sexta: 09h00 às 18h30",
+  "dias_semana": [
+   "seg",
+   "ter",
+   "qua",
+   "qui",
+   "sex"
+  ],
   "funcionamento": "segunda a sábado das 9h às 18h30 e domingo das 9 às 14h",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -328,6 +415,12 @@
   "produto": "Lanche de Catupiry Empanado",
   "descricao": "Na compra de 1 (um) Lanche de Catupiry Empanado, ganhe outro igual gratuitamente. Modalidade: válido somente para consumo no local.",
   "horario_promo": "Segunda a Quinta: 18h00 às 23h45",
+  "dias_semana": [
+   "seg",
+   "ter",
+   "qua",
+   "qui"
+  ],
   "funcionamento": "Todos os dias das 18:00 às 23:45 hs",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -351,6 +444,12 @@
   "produto": "Meia porção de Panceta Pururuca (ganhe a outra metade: 1 porção inteira)",
   "descricao": "Na compra de 1 (uma) meia porção de Panceta Pururuca Dubeergrill, ganhe gratuitamente a outra metade e receba, no total, 1 (uma) porção inteira. Modalidade: válido somente para consumo no local.",
   "horario_promo": "Terça a Sexta: 18h30 às 22h30",
+  "dias_semana": [
+   "ter",
+   "qua",
+   "qui",
+   "sex"
+  ],
   "funcionamento": "Terça a sabado das 18:30 às 23:00 almoço aos sábados domingos e feriados das 11:30 às 16:00",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -373,6 +472,12 @@
   "produto": "Hambúrguer de Abacaxi com Mel",
   "descricao": "Na compra de 1 (um) Hambúrguer de Abacaxi com Mel, ganhe outro igual gratuitamente. Modalidade: válido para consumo no local e retirada.",
   "horario_promo": "Segunda a Quinta: 18h00 às 23h00",
+  "dias_semana": [
+   "seg",
+   "ter",
+   "qua",
+   "qui"
+  ],
   "funcionamento": "Segunda a segunda das 18:00 às 01:00",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -395,6 +500,14 @@
   "produto": "Combo Café Coado + Brioche com Toque de Mel",
   "descricao": "Na compra de 1 (um) combo com Café Coado acompanhado de Brioche com Toque de Mel, ganhe outro igual gratuitamente. Modalidade: válido para consumo no local e retirada.",
   "horario_promo": "Segunda a Quarta: 08h00 às 18h00; Quinta a Sábado: 08h00 às 19h00",
+  "dias_semana": [
+   "seg",
+   "ter",
+   "qua",
+   "qui",
+   "sex",
+   "sab"
+  ],
   "funcionamento": "Seg a Sab das 08;00 às 18:00",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -417,6 +530,15 @@
   "produto": "Petit Gateau com 1 bola de sorvete, chantilly e cereja",
   "descricao": "Na compra de 1 (um) Petit Gateau acompanhado de 1 bola de sorvete à escolha do cliente e finalizado com chantilly e cereja, ganhe outro igual gratuitamente. Modalidade: válido em todas as unidades da Gelateria Lunata em Marília, somente para consumo no local.",
   "horario_promo": "Todos os dias: 13h00 às 22h00",
+  "dias_semana": [
+   "seg",
+   "ter",
+   "qua",
+   "qui",
+   "sex",
+   "sab",
+   "dom"
+  ],
   "funcionamento": "13:00 às 23:00",
   "so_delivery": false,
   "ponto_retirada": false,
@@ -439,6 +561,10 @@
   "produto": "Croqueta de Cupim (3 unidades)",
   "descricao": "Na compra de 1 (uma) Croqueta de cupim (3 unidades), ganhe outra igual gratuitamente. Modalidade: válido somente para consumo no local.",
   "horario_promo": "Terça e Quarta: 17h00 às 23h00",
+  "dias_semana": [
+   "ter",
+   "qua"
+  ],
   "funcionamento": "Ter a qui 17h às 23h/ sex 17h às 23:30/ sab 12h às 23:00/ dom 12h às 22h",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -461,6 +587,13 @@
   "produto": "Crumble de Banana ou Maçã",
   "descricao": "Na compra de 1 (um) Crumble de Banana ou Maçã, ganhe outro igual gratuitamente. Modalidade: válido para consumo no local e retirada.",
   "horario_promo": "Segunda a Sexta: 11h00 às 14h00",
+  "dias_semana": [
+   "seg",
+   "ter",
+   "qua",
+   "qui",
+   "sex"
+  ],
   "funcionamento": "de 2ª a sábado das 08 às 19h",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -483,6 +616,13 @@
   "produto": "Combo Heaven Manhattan + batata + refrigerante em lata",
   "descricao": "Na compra de 1 (um) combo Heaven Manhattan acompanhado de batata e refrigerante em lata, ganhe outro combo igual gratuitamente. Modalidade: válido para consumo no local e retirada.",
   "horario_promo": "Quinta a Segunda: 18h30 às 23h30",
+  "dias_semana": [
+   "seg",
+   "qui",
+   "sex",
+   "sab",
+   "dom"
+  ],
   "funcionamento": "De Quinta a Terça das 18:30 as 23:30",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -505,6 +645,11 @@
   "produto": "Porção de Hot Roll de Salmão com Cream Cheese (10 unidades)",
   "descricao": "Na compra de 1 (uma) porção de 10 unidades de Hot Roll de Salmão com Cream Cheese, ganhe outra porção igual gratuitamente. Modalidade: válido somente para retirada.",
   "horario_promo": "Segunda a Quarta: 18h00 às 23h00",
+  "dias_semana": [
+   "seg",
+   "ter",
+   "qua"
+  ],
   "funcionamento": "Segunda a Sabado das 18 as 23",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -527,6 +672,12 @@
   "produto": "Poke de Frango Fry M",
   "descricao": "Na compra de 1 Poke de Frango Fry M (arroz, 60g de frango, cenoura, chips de mandioquinha, cream cheese, repolho roxo, alho frito e cebolinha), ganhe outro igual gratuitamente. Modalidade: válido somente para retirada.",
   "horario_promo": "Segunda a Quinta: 18h00 às 22h30",
+  "dias_semana": [
+   "seg",
+   "ter",
+   "qua",
+   "qui"
+  ],
   "funcionamento": "SEGUNDA A SABADO DAS 18 AS 22:30",
   "so_delivery": true,
   "ponto_retirada": true,
@@ -550,6 +701,11 @@
   "produto": "Rodízio de Culinária Tex Mex",
   "descricao": "Na compra de 1 (um) Rodízio de Culinária Tex Mex, ganhe outro igual gratuitamente. Modalidade: válido somente para consumo no local.",
   "horario_promo": "Terça a Quinta: 18h30 às 22h00",
+  "dias_semana": [
+   "ter",
+   "qua",
+   "qui"
+  ],
   "funcionamento": "De terça a domingo (das 18:30 às 23h)",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -572,6 +728,12 @@
   "produto": "Prato Executivo ou Caesar Salad",
   "descricao": "Na compra de 1 (um) Prato Executivo ou Caesar Salad, ganhe outro igual gratuitamente. Modalidade: válido para consumo no local e retirada.",
   "horario_promo": "Segunda a Quinta: 11h00 às 15h00",
+  "dias_semana": [
+   "seg",
+   "ter",
+   "qua",
+   "qui"
+  ],
   "funcionamento": "Seg a sex das 11 as 15",
   "so_delivery": false,
   "ponto_retirada": false,
@@ -594,6 +756,11 @@
   "produto": "Entrecot au Bernaise",
   "descricao": "Na compra de 1 (um) Entrecot au Bernaise, ganhe outro igual gratuitamente. Modalidade: válido para consumo no local e retirada.",
   "horario_promo": "Terça a Quinta: 11h30 às 14h30 e 19h30 às 23h00",
+  "dias_semana": [
+   "ter",
+   "qua",
+   "qui"
+  ],
   "funcionamento": "Horario de atendimento: Almoço  Terça a Sábado: 11:30 ás 14:30 Jantar Terça a Sábado: 19:30 ás 23:00  Domingo: 12:00 ás 14:30",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -616,6 +783,12 @@
   "produto": "Combo 1 café expresso + 1 doce grande da vitrine",
   "descricao": "Na compra de 1 (um) combo com 1 (um) café expresso e 1 (um) doce grande da vitrine à escolha do cliente, ganhe outro combo igual gratuitamente. Modalidade: válido para consumo no local e retirada.",
   "horario_promo": "Segunda a Quinta: 10h00 às 18h30",
+  "dias_semana": [
+   "seg",
+   "ter",
+   "qua",
+   "qui"
+  ],
   "funcionamento": "SEGUNDA A SEXTA DAS 10:00 AS 19:00 E SABADO DAS 09.30 AS 17:00H",
   "so_delivery": false,
   "ponto_retirada": false,
@@ -638,6 +811,13 @@
   "produto": "Combo fatia de Bolo do dia + capuccino + pão de queijo",
   "descricao": "Na compra de 1 (um) combo (fatia de Bolo do dia, um capuccino e um pão de queijo), ganhe outro combo igual gratuitamente. Modalidade: válido para consumo no local e retirada.",
   "horario_promo": "Segunda a Sexta: 08h30 às 17h30",
+  "dias_semana": [
+   "seg",
+   "ter",
+   "qua",
+   "qui",
+   "sex"
+  ],
   "funcionamento": "Segunda a sexta das 08h 30 as 17h 30",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -660,6 +840,14 @@
   "produto": "Churros Artesanal recheado e coberto com doce de leite",
   "descricao": "Na compra de 1 (um) Churros Artesanal recheado e coberto com doce de leite legítimo, ganhe outro igual gratuitamente. Modalidade: válido somente para consumo no local.",
   "horario_promo": "Terça a Domingo: 18h00 às 20h00",
+  "dias_semana": [
+   "ter",
+   "qua",
+   "qui",
+   "sex",
+   "sab",
+   "dom"
+  ],
   "funcionamento": "Aberto das 18:30h / 23:30h",
   "so_delivery": false,
   "ponto_retirada": false,
@@ -682,6 +870,13 @@
   "produto": "Poke Viagem com proteína participante (frango, peixe branco ou shimeji)",
   "descricao": "Na compra de 1 Poke Viagem com proteína participante, ganhe outro igual gratuitamente. Opções: frango, peixe branco ou shimeji. Adicionais e extras à parte. Modalidade: válido somente para consumo no local.",
   "horario_promo": "Segunda a Sexta: 11h15 às 23h00",
+  "dias_semana": [
+   "seg",
+   "ter",
+   "qua",
+   "qui",
+   "sex"
+  ],
   "funcionamento": "Segunda a segunda: 11h15 as 23h00",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -705,6 +900,11 @@
   "produto": "Combo Sanduíche de Costela + Sobremesa dos Sonhos",
   "descricao": "Na compra de 1 (um) combo Sanduíche de Costela + Sobremesa dos Sonhos, ganhe outro combo igual gratuitamente. Modalidade: válido para consumo no local e retirada.",
   "horario_promo": "Segunda, Quarta e Quinta-feira: 16h00 às 21h00",
+  "dias_semana": [
+   "seg",
+   "qua",
+   "qui"
+  ],
   "funcionamento": "Seg a sábado",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -727,6 +927,11 @@
   "produto": "Monte seu Prato (3 itens da categoria do cardápio)",
   "descricao": "Na compra de 1 (um) \"Monte seu Prato\" (à escolha de 3 itens disponíveis na respectiva categoria do cardápio), ganhe outro gratuitamente. Modalidade: válido somente para consumo no local.",
   "horario_promo": "Terça a Quinta: 18h00 às 22h30",
+  "dias_semana": [
+   "ter",
+   "qua",
+   "qui"
+  ],
   "funcionamento": "Terça a Sabado 18h as 22h 30, Domingo das 11h 30 as 15h",
   "so_delivery": true,
   "ponto_retirada": false,
@@ -749,6 +954,11 @@
   "produto": "Burger da sua escolha (ganhe outro de igual ou menor valor)",
   "descricao": "Na compra de 1 (um) Burger da sua escolha, ganhe outro de igual ou menor valor gratuitamente. Modalidade: válido somente para retirada.",
   "horario_promo": "Segunda, Quarta e Quinta: 18h30 às 22h00",
+  "dias_semana": [
+   "seg",
+   "qua",
+   "qui"
+  ],
   "funcionamento": "Quarta a Domingo das 18h 30 às 23h, Segunda das 18h 30 às 22h, Ter - Fechado",
   "so_delivery": true,
   "ponto_retirada": true,
@@ -771,6 +981,11 @@
   "produto": "Wrap da sua escolha (ganhe outro de igual ou menor valor)",
   "descricao": "Na compra de 1 (um) Wrap da sua escolha, ganhe outro de igual ou menor valor gratuitamente. Modalidade: válido somente para retirada.",
   "horario_promo": "Segunda, Quarta e Quinta: 18h30 às 22h00",
+  "dias_semana": [
+   "seg",
+   "qua",
+   "qui"
+  ],
   "funcionamento": "Segunda à Sábado das 10h 30 às 15h",
   "so_delivery": true,
   "ponto_retirada": true,
@@ -793,6 +1008,13 @@
   "produto": "Bowl Works 500ml com Leite Condensado, Leite Ninho e Banana",
   "descricao": "Na compra de 1 (um) Bowl Works de 500ml com Leite Condensado, Leite Ninho e Banana, ganhe outro igual gratuitamente. Modalidade: válido para consumo no local e retirada.",
   "horario_promo": "Segunda a Sexta: 12h00 às 21h00",
+  "dias_semana": [
+   "seg",
+   "ter",
+   "qua",
+   "qui",
+   "sex"
+  ],
   "funcionamento": "Segunda a sexta feira das 12:00 às 21:00hrs - sábado das 12:00 às 20:00hrs e aos domingos das 13:30 às 21:00hrs",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -815,6 +1037,15 @@
   "produto": "Prato Tradizionale",
   "descricao": "Na compra de 1 (um) Prato Tradizionale, ganhe outro igual gratuitamente. Modalidade: válido para consumo no local e retirada (unidades Esmeralda Shopping e Marília Shopping).",
   "horario_promo": "Todos os dias: 11h00 às 22h00",
+  "dias_semana": [
+   "seg",
+   "ter",
+   "qua",
+   "qui",
+   "sex",
+   "sab",
+   "dom"
+  ],
   "funcionamento": "Todos os dias, das 11:00 as 22:00",
   "so_delivery": false,
   "ponto_retirada": false,
@@ -840,6 +1071,13 @@
   "produto": "Pizza Francesa Grande (8 pedaços)",
   "descricao": "Na compra de 1 (uma) Pizza Francesa Grande (8 pedaços), ganhe outra igual gratuitamente. Modalidade: válido para consumo no local e retirada.",
   "horario_promo": "Domingo a Quinta: 18h00 às 23h30",
+  "dias_semana": [
+   "seg",
+   "ter",
+   "qua",
+   "qui",
+   "dom"
+  ],
   "funcionamento": "Terças a domingo a partir das 18:00 as 23:30",
   "so_delivery": false,
   "ponto_retirada": false,
@@ -862,6 +1100,9 @@
   "produto": "Risoto de Funghi",
   "descricao": "Na compra de 1 (um) Risoto de Funghi, ganhe outro igual gratuitamente. Modalidade: válido para consumo no local e retirada.",
   "horario_promo": "Quartas-feiras: 19h00 às 22h00",
+  "dias_semana": [
+   "qua"
+  ],
   "funcionamento": "segunda a sexta 16 às 23:00 / sábado das 11h ás 23hs / domingo das 11h às 15hs",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -884,6 +1125,11 @@
   "produto": "Combo Empada da Vó (frango ou palmito) + bebida de laranja + café expresso",
   "descricao": "Na compra de 1 (um) combo com Empada da Vó de frango ou palmito, acompanhada de bebida de laranja refrescante e um café expresso, ganhe outro igual gratuitamente. Modalidade: válido para consumo no local e retirada.",
   "horario_promo": "Segunda a Quarta: 09h00 às 18h00",
+  "dias_semana": [
+   "seg",
+   "ter",
+   "qua"
+  ],
   "funcionamento": "Segunda a sexta das 9 às 18 hs",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -906,6 +1152,14 @@
   "produto": "Pizza Napolitana",
   "descricao": "Na compra de 1 (uma) Pizza Napolitana, ganhe outra igual gratuitamente. Modalidade: válido para consumo no local e retirada.",
   "horario_promo": "Terça a Domingo: 18h00 às 23h00",
+  "dias_semana": [
+   "ter",
+   "qua",
+   "qui",
+   "sex",
+   "sab",
+   "dom"
+  ],
   "funcionamento": "De terça a domingo das 18 às 23",
   "so_delivery": true,
   "ponto_retirada": false,
@@ -928,6 +1182,12 @@
   "produto": "Combo 1 pastel (frango, queijo, calabresa ou carne) + 1 caldo de cana 300ml",
   "descricao": "Na compra de 1 (um) combo com 1 (um) pastel (frango, queijo, calabresa ou carne), acompanhado de 1 (um) caldo de cana de 300ml, ganhe outro igual gratuitamente. Modalidade: válido somente para consumo no local.",
   "horario_promo": "Segunda a Quinta: 11h00 às 23h00",
+  "dias_semana": [
+   "seg",
+   "ter",
+   "qua",
+   "qui"
+  ],
   "funcionamento": "Segunda a sexta das 11:00 às 23:00 e sábado das 17:00 às 23:30",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -951,6 +1211,11 @@
   "produto": "Pizza de qualquer sabor",
   "descricao": "Na compra de 1 (uma) pizza de qualquer sabor, ganhe outra pizza de qualquer sabor gratuitamente. Modalidade: válido somente para consumo no local.",
   "horario_promo": "Segunda a Quarta: 07h00 às 22h00",
+  "dias_semana": [
+   "seg",
+   "ter",
+   "qua"
+  ],
   "funcionamento": "todos os dias 7h as 22h durante dias da semana, sabado 8h as 20h, domingo 8h as 17h",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -973,6 +1238,15 @@
   "produto": "Combo 1 Temaki de Salmão e Cream Cheese + 8 Sushis de Salmão e Cream Cheese (empanados e fritos)",
   "descricao": "Na compra do combo com 1 Temaki de Salmão e Cream Cheese + 8 Sushis de Salmão e Cream Cheese, empanados e fritos, ganhe outro combo igual gratuitamente. Modalidade: válido para consumo no local e retirada.",
   "horario_promo": "Todos os dias: 11h00 às 22h00",
+  "dias_semana": [
+   "seg",
+   "ter",
+   "qua",
+   "qui",
+   "sex",
+   "sab",
+   "dom"
+  ],
   "funcionamento": "Todos os dias das 11h as 22h 30",
   "so_delivery": true,
   "ponto_retirada": true,
@@ -996,6 +1270,11 @@
   "produto": "Combo 2: X-salada + fritas + refrigerante 350ml",
   "descricao": "Na compra de 1 (um) Combo 2 contendo X-salada, fritas e refrigerante de 350ml, ganhe outro combo igual gratuitamente. Modalidade: válido para consumo no local e retirada.",
   "horario_promo": "Terça a Quinta: 17h00 às 23h59",
+  "dias_semana": [
+   "ter",
+   "qua",
+   "qui"
+  ],
   "funcionamento": "Terça-feira a domingo",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -1018,6 +1297,13 @@
   "produto": "Lanche grego de frango (vinagrete, repolho opcional e molho especial)",
   "descricao": "Na compra de 1 (um) lanche grego de frango, acompanhado de vinagrete, repolho opcional e molho especial, ganhe outro igual gratuitamente. Modalidade: válido para consumo no local e retirada.",
   "horario_promo": "Segunda a Sexta: 15h00 às 18h00",
+  "dias_semana": [
+   "seg",
+   "ter",
+   "qua",
+   "qui",
+   "sex"
+  ],
   "funcionamento": "segunda a sexta-feira das 8 as 19hrs",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -1040,6 +1326,10 @@
   "produto": "Tartar de Salmão",
   "descricao": "Na compra de 1 (um) Tartar de Salmão, ganhe outro igual gratuitamente. Modalidade: válido somente para retirada.",
   "horario_promo": "Terça e Quarta: 18h00 às 23h00",
+  "dias_semana": [
+   "ter",
+   "qua"
+  ],
   "funcionamento": "Terça a domingo das 18h as 23h",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -1062,6 +1352,12 @@
   "produto": "Pizza Broto Dois Queijos com Borda de Brigadeiro",
   "descricao": "Na compra de 1 (uma) Pizza Broto Dois Queijos com Borda de Brigadeiro, ganhe outra igual gratuitamente. Modalidade: válido somente para retirada.",
   "horario_promo": "Segunda a Quinta: 18h30 às 23h00",
+  "dias_semana": [
+   "seg",
+   "ter",
+   "qua",
+   "qui"
+  ],
   "funcionamento": "18:30 as 23:00",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -1084,6 +1380,12 @@
   "produto": "Frango a Passarinho",
   "descricao": "Na compra de 1 (um) Frango a Passarinho, ganhe outro igual gratuitamente. Modalidade: válido para consumo no local e retirada.",
   "horario_promo": "Terça a Sexta: 17h00 às 00h00",
+  "dias_semana": [
+   "ter",
+   "qua",
+   "qui",
+   "sex"
+  ],
   "funcionamento": "Terça a domingo das 17 às 00",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -1107,6 +1409,10 @@
   "produto": "Café Colonial",
   "descricao": "Na compra de 1 (um) Café Colonial, ganhe outro igual gratuitamente. Modalidade: válido somente para consumo no local.",
   "horario_promo": "Sábado e Domingo: 08h30 às 12h00",
+  "dias_semana": [
+   "sab",
+   "dom"
+  ],
   "funcionamento": "Terça a sexta das 12 às 19h - sábado das 8:30 às 19h - domingos das 8:30 às 17h",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -1130,6 +1436,14 @@
   "produto": "Risoto Individual (ganhe outro de valor igual ou inferior)",
   "descricao": "Na compra de 1 (um) Risoto Individual, ganhe outro igual gratuitamente, podendo o item gratuito ser o mesmo sabor ou qualquer outro Risoto disponível, de valor igual ou inferior ao prato adquirido. Modalidade: válido para consumo no local e retirada.",
   "horario_promo": "Terça a Sexta: 18h00 às 23h00; Sábado: 12h00 às 15h00 e 19h00 às 23h00; Domingo: 12h00 às 15h00",
+  "dias_semana": [
+   "ter",
+   "qua",
+   "qui",
+   "sex",
+   "sab",
+   "dom"
+  ],
   "funcionamento": "Terça a Sexta  das 18h as 23h sabado das 12h as 15h -19h as 23h domingo 12h as 15h",
   "so_delivery": false,
   "ponto_retirada": false,
@@ -1152,6 +1466,13 @@
   "produto": "Bolo Formigueiro inteiro",
   "descricao": "Na compra de 1 (um) Bolo Formigueiro inteiro, ganhe outro igual gratuitamente. Modalidade: válido para consumo no local e retirada.",
   "horario_promo": "Segunda a Sexta: 08h00 às 18h00",
+  "dias_semana": [
+   "seg",
+   "ter",
+   "qua",
+   "qui",
+   "sex"
+  ],
   "funcionamento": "Seg a sexta 8:00 às 18:00 aos sábados 8:00 às 17:00",
   "so_delivery": false,
   "ponto_retirada": true,
@@ -1176,6 +1497,14 @@
   "produto": "Parmegiana com arroz e batata rústica",
   "descricao": "Na compra de 1 (uma) Parmegiana acompanhada de arroz e batata rústica, ganhe outra igual gratuitamente. Modalidade: válido para consumo no local e retirada.",
   "horario_promo": "Segunda a Sábado: 11h00 às 14h00",
+  "dias_semana": [
+   "seg",
+   "ter",
+   "qua",
+   "qui",
+   "sex",
+   "sab"
+  ],
   "funcionamento": "Segunda a sexta 9h-19h, sábado 9h-17h",
   "so_delivery": false,
   "ponto_retirada": true,
